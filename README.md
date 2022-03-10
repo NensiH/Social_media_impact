@@ -22,7 +22,7 @@ Tina Bellon
 Ima Richburg
 
 
-## Deliverable One:
+## First Segment:
 1 Namrata: Database: ERD, PostgreSQL setup 
 
 - Sample data that mimics the expected the expected final database structure or schema
