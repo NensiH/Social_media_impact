@@ -1,12 +1,20 @@
-# Technologies Used
+# Social Media Impact Technologies 
+
+## Data Gathering
+Two data sets will be utilized to determine the relationship between social media engagment and suicide rates in the US 
+* Suicide US data CSV file from Kaggle
+* Social media usage CSV file from Pew Research
+
 ## Data Cleaning and Analysis
-Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
+Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python in Jupyter Notebooks. 
 
 ## Database Storage
-Mongo is the database we intend to use, and we will integrate Flask to display the data.
+
+PostgresSQL was used tor the ERD flowchart and database.  The cleaned and transformed data will be loaded into structured tables.
 
 ## Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
+Multiple linear regression model will be used to explore the relationship between social media usage and suicide rates by generation in the United States.
+SciKitLearn is the ML library we'll be using to create a classifier. 
 
 ## Dashboard
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on ___.
+Tableu will be used to create the dashboard and data story.
