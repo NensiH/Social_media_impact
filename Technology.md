@@ -1,10 +1,12 @@
 # Social Media Impact Technologies 
-![This is an alt text](/Users/imarichburg/Desktop/Class Repository Folder/Social_media_impact/Mockups/Technologies Mockup)
+
+<img width="1103" alt="Technologies Mockup" src="https://user-images.githubusercontent.com/37478490/158917380-192e46f0-6b5a-4af1-a7b2-7bffaba6d20d.png">
 
 ## Data Gathering
 Two data sets will be utilized to determine the relationship between social media engagement and suicide rates in the US 
 * Suicide US data CSV file from Kaggle
 * Social media usage CSV file from Pew Research
+
 
 ## Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python in Jupyter Notebooks. The CSV files will be read into Pandas DataFrames for analysis and transformation.  Columns without function for this process will be dropped.  Rows or columns will be renamed to allow the clean DataFrames to be joined into one.
