@@ -32,6 +32,10 @@ Ima Richburg
 
 - Takes in data from the provisional database
 - Outputs label(s) for input data
+- Which model did you choose and why?
+- How are you training your model?
+- What is the model's accuracy?
+- How does this model work?
 
 3 Nensi: Github
 
@@ -41,7 +45,10 @@ Ima Richburg
 
 4 Ima : Description of the communication protocols
 
-- Which technologies to use
+- Which tools are the best fit for your project? 
+- What will be used for each section? For example, data cleaning and data storage will be completed using two different tools. 
+- How will the dashboard be built? 
+- create a document named "technology.md" and push it up to your branch. Submit a link to your branch to your instructor during the virtual class.
 
 5 Tina: Presentation
 
