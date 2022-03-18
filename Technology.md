@@ -1,5 +1,5 @@
 # Social Media Impact Technologies 
-
+![This is an alt text](/Users/imarichburg/Desktop/Class Repository Folder/Social_media_impact/Mockups/Technologies Mockup)
 
 ## Data Gathering
 Two data sets will be utilized to determine the relationship between social media engagement and suicide rates in the US 
