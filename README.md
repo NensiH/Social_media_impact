@@ -26,15 +26,15 @@ We also want to determine whether an uptick in social media use in recent years 
 
 ## Team:
 
-[Quang Nguyen] (https://github.com/utpetroleum)
+[Quang Nguyen](https://github.com/utpetroleum)
 
 [Nensi Dobaria](https://github.com/NensiH)
 
-[Namrata Shah] (https://github.com/namu12345)
+[Namrata Shah](https://github.com/namu12345)
 
-[Tina Bellon] (https://github.com/TinaBeee)
+[Tina Bellon](https://github.com/TinaBeee)
 
-[Ima Richburg] (https://github.com/imarichburg)
+[Ima Richburg](https://github.com/imarichburg)
 
 
 ## First Segment:
@@ -58,7 +58,7 @@ We also want to determine whether an uptick in social media use in recent years 
 - At least one branch for each team member
 - Each team member has at least four commits from the duration of the first segment
 
-4 Ima : Description of the communication protocols in [Technology and tools] (https://github.com/NensiH/Social_media_impact/blob/main/Technology.md)
+4 Ima : Description of the communication protocols in [Technology and tools](https://github.com/NensiH/Social_media_impact/blob/main/Technology.md)
 
 - Which tools are the best fit for your project? 
 - What will be used for each section? For example, data cleaning and data storage will be completed using two different tools. 
