@@ -71,4 +71,31 @@ We also want to determine whether an uptick in social media use in recent years 
 - Description of the source of data
 
 
+## Second Segment:
+1 Namrata: Database Join/Adding data to SQL tables, assist with ML
+- Sample data that mimics the expected the expected final database structure or schema
+- Storyboard on Google Slide(s)
+
+2 Quang: Machine learning model train
+- Takes in data from the provisional database
+- Outputs label(s) for input data
+- Description of how data was split into training and testing sets
+- Explanation of model choice, including limitations and benefits
+- Remove the unnecessary features and encode/scale the features we want to keep
+- Get the machine learning model up & running
+
+
+3 Nensi: Presentation/ML help
+- Includes a README.md
+- Visualization using Tableau
+
+4 Tina: Tableau Dashboard & statistics on data
+- Description of the tool(s) that will be used to create final dashboard
+- Visualization 
+
+5 Ima: Create functional Machine Learning model
+- All code necessary to perform exploratory analysis
+- Some code necessary to complete the machine learning portion of the project
+- Outline of the project (this may include images, but should be easy to follow and digest)
+
 
