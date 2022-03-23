@@ -94,7 +94,7 @@ d3.json("https://tinabeee.github.io/Data/capitals2.geojson").then(function(data)
     console.log(feature);
     return {
       opacity: 1,
-      fillOpacity: 1,
+      fillOpacity: 0.7,
       fillColor: getColor(feature.properties.suicides),
       color: "#000000",
       radius: feature.properties.suicides,
@@ -106,7 +106,7 @@ d3.json("https://tinabeee.github.io/Data/capitals2.geojson").then(function(data)
   function styleInfoGI(feature) {
       return {
           opacity: 1,
-          fillOpacity: 1,
+          fillOpacity: 0.7,
           fillColor: getColor(feature.properties.gi_gen),
           color: "#000000",
           radius: feature.properties.gi_gen,
@@ -118,7 +118,7 @@ d3.json("https://tinabeee.github.io/Data/capitals2.geojson").then(function(data)
     function styleInfoSilent(feature) {
         return {
             opacity: 1,
-            fillOpacity: 1,
+            fillOpacity: 0.7,
             fillColor: getColor(feature.properties.silent),
             color: "#000000",
             radius: feature.properties.silent,
@@ -130,7 +130,7 @@ d3.json("https://tinabeee.github.io/Data/capitals2.geojson").then(function(data)
     function styleInfoBoomers(feature) {
         return {
             opacity: 1,
-            fillOpacity: 1,
+            fillOpacity: 0.7,
             fillColor: getColor(feature.properties.boomers),
             color: "#000000",
             radius: feature.properties.boomers,
@@ -142,7 +142,7 @@ d3.json("https://tinabeee.github.io/Data/capitals2.geojson").then(function(data)
     function styleInfoGenX(feature) {
         return {
             opacity: 1,
-            fillOpacity: 1,
+            fillOpacity: 0.7,
             fillColor: getColor(feature.properties.gen_x),
             color: "#000000",
             radius: feature.properties.gen_x,
@@ -154,7 +154,7 @@ d3.json("https://tinabeee.github.io/Data/capitals2.geojson").then(function(data)
     function styleInfoMillennials(feature) {
         return {
             opacity: 1,
-            fillOpacity: 1,
+            fillOpacity: 0.7,
             fillColor: getColor(feature.properties.millenials),
             color: "#000000",
             radius: feature.properties.millenials,
@@ -166,7 +166,7 @@ d3.json("https://tinabeee.github.io/Data/capitals2.geojson").then(function(data)
     function styleInfoGenZ(feature) {
         return {
             opacity: 1,
-            fillOpacity: 1,
+            fillOpacity: 0.7,
             fillColor: getColor(feature.properties.gen_z),
             color: "#000000",
             radius: feature.properties.gen_z,
