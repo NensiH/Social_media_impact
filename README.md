@@ -30,19 +30,21 @@ We also want to determine whether an uptick in social media use in recent years 
   - Github
 - Creating Database
   - PostgreSQL
-  - SQLAlchamy
+  - SQLAlchemy
 - Data cleaning and Analyzing
   - Python
   - Jupyter notebook
   - Pandas
 - Machine Learning
-  - Linear Regression classifier
+  - scikit-learn
+  - Linear Regression model
   - Random forest regressor model
-  - Scikit-Learn
 - Dashboard
   - Tableau
+  - MatplotLib
+  - Leaflet
+  - Mapbox
   - Javascript
-  - Flask
   - HTML
   - CSS
 
