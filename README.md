@@ -36,7 +36,8 @@ We also want to determine whether an uptick in social media use in recent years 
   - Jupyter notebook
   - Pandas
 - Machine Learning
-  - Regression classifier
+  - Linear Regression classifier
+  - Random forest regressor model
   - Scikit-Learn
 - Dashboard
   - Tableau
