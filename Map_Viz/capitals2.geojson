@@ -1,0 +1,2081 @@
+[
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.82,
+          41.33
+        ]
+      },
+      "properties": {
+        "capital": "Tirana",
+        "country": "Albania",
+        "suicides": 3.5,
+        "boomers": 3.38,
+        "gi_gen": 4.47,
+        "gen_x": 4.63,
+        "gen_z": 0.68,
+        "millenials": 1.63,
+        "silent": 3.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37,
+          48.21
+        ]
+      },
+      "properties": {
+        "capital": "Vienna",
+        "country": "Austria",
+        "suicides": 23.76,
+        "boomers": 22.32,
+        "gi_gen": 62.65,
+        "gen_x": 13.17,
+        "gen_z": 0.43,
+        "millenials": 5.77,
+        "silent": 37.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.57,
+          53.9
+        ]
+      },
+      "properties": {
+        "capital": "Minsk",
+        "country": "Belarus",
+        "suicides": 31.08,
+        "boomers": 41.54,
+        "gi_gen": 43.78,
+        "gen_x": 27.62,
+        "gen_z": 0.94,
+        "millenials": 10.41,
+        "silent": 46.97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35,
+          50.85
+        ]
+      },
+      "properties": {
+        "capital": "Brussels",
+        "country": "Belgium",
+        "suicides": 24.4,
+        "boomers": 24.88,
+        "gi_gen": 48.20,
+        "gen_x": 14.73,
+        "gen_z": 0.51,
+        "millenials": 6.54,
+        "silent": 28.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.36,
+          43.85
+        ]
+      },
+      "properties": {
+        "capital": "Sarajevo",
+        "country": "Bosnia and Herzegovina",
+        "suicides": 4.62,
+        "boomers": 6.62,
+        "gi_gen": 0,
+        "gen_x": 5.84,
+        "gen_z": 0.11,
+        "millenials": 1.52,
+        "silent": 12.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.32,
+          42.7
+        ]
+      },
+      "properties": {
+        "capital": "Sofia",
+        "country": "Bulgaria",
+        "suicides": 19.5,
+        "boomers": 14.57,
+        "gi_gen": 62.29,
+        "gen_x": 8.20,
+        "gen_z": 0.30,
+        "millenials": 3.55,
+        "silent": 29.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.98,
+          45.81
+        ]
+      },
+      "properties": {
+        "capital": "Zagreb",
+        "country": "Croatia",
+        "suicides": 22.84,
+        "boomers": 23.7,
+        "gi_gen": 66.09,
+        "gen_x": 14.35,
+        "gen_z": 0.57,
+        "millenials": 6.25,
+        "silent": 45.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.37,
+          35.17
+        ]
+      },
+      "properties": {
+        "capital": "Nicosia",
+        "country": "Cyprus",
+        "suicides": 3.3,
+        "boomers": 4.22,
+        "gi_gen": 0.00,
+        "gen_x": 4.60,
+        "gen_z": 0.00,
+        "millenials": 3.08,
+        "silent": 3.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.42,
+          50.09
+        ]
+      },
+      "properties": {
+        "capital": "Prague",
+        "country": "Czech Republic",
+        "suicides": 18.5,
+        "boomers": 20.56,
+        "gi_gen": 56.30,
+        "gen_x": 12.50,
+        "gen_z": 0.36,
+        "millenials": 5.86,
+        "silent": 27.58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.57,
+          55.68
+        ]
+      },
+      "properties": {
+        "capital": "Copenhagen",
+        "country": "Denmark",
+        "suicides": 14.1,
+        "boomers": 17.03,
+        "gi_gen": 40.40,
+        "gen_x": 10.59,
+        "gen_z": 0.26,
+        "millenials": 3.57,
+        "silent": 24.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.75,
+          59.44
+        ]
+      },
+      "properties": {
+        "capital": "Tallinn",
+        "country": "Estonia",
+        "suicides": 27.28,
+        "boomers": 37.76,
+        "gi_gen": 69.33,
+        "gen_x": 22.88,
+        "gen_z": 0.74,
+        "millenials": 10.14,
+        "silent": 41.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.94,
+          60.17
+        ]
+      },
+      "properties": {
+        "capital": "Helsinki",
+        "country": "Finland",
+        "suicides": 22.77,
+        "boomers": 31.90,
+        "gi_gen": 36.84,
+        "gen_x": 21.37,
+        "gen_z": 0.37,
+        "millenials": 10.06,
+        "silent": 27.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.35,
+          48.85
+        ]
+      },
+      "properties": {
+        "capital": "Paris",
+        "country": "France",
+        "suicides": 21.68,
+        "boomers": 23.92,
+        "gi_gen": 54.28,
+        "gen_x": 12.09,
+        "gen_z": 0.40,
+        "millenials": 4.26,
+        "silent": 31.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41,
+          52.52
+        ]
+      },
+      "properties": {
+        "capital": "Berlin",
+        "country": "Germany",
+        "suicides": 15.56,
+        "boomers": 15.92,
+        "gi_gen": 48.22,
+        "gen_x": 9.81,
+        "gen_z": 0.29,
+        "millenials": 4.07,
+        "silent": 25.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72,
+          37.98
+        ]
+      },
+      "properties": {
+        "capital": "Athens",
+        "country": "Greece",
+        "suicides": 4.06,
+        "boomers": 4.45,
+        "gi_gen": 8.64,
+        "gen_x": 3.06,
+        "gen_z": 0.04,
+        "millenials": 1.50,
+        "silent": 5.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.04,
+          47.5
+        ]
+      },
+      "properties": {
+        "capital": "Budapest",
+        "country": "Hungary",
+        "suicides": 32.76,
+        "boomers": 41.46,
+        "gi_gen": 109.73,
+        "gen_x": 18.28,
+        "gen_z": 0.33,
+        "millenials": 5.51,
+        "silent": 54.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.9,
+          64.14
+        ]
+      },
+      "properties": {
+        "capital": "Reykjavík",
+        "country": "Iceland",
+        "suicides": 12.8,
+        "boomers": 14.89,
+        "gi_gen": 15.50,
+        "gen_x": 13.92,
+        "gen_z": 0.51,
+        "millenials": 8.00,
+        "silent": 15.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.25,
+          53.33
+        ]
+      },
+      "properties": {
+        "capital": "Dublin",
+        "country": "Ireland",
+        "suicides": 10.78,
+        "boomers": 14.49,
+        "gi_gen": 10.75,
+        "gen_x": 12.62,
+        "gen_z": 0.60,
+        "millenials": 8.05,
+        "silent": 10.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48,
+          41.89
+        ]
+      },
+      "properties": {
+        "capital": "Rome",
+        "country": "Italy",
+        "suicides": 8.52,
+        "boomers": 7.58,
+        "gi_gen": 23.30,
+        "gen_x": 4.81,
+        "gen_z": 0.16,
+        "millenials": 2.28,
+        "silent": 12.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.11,
+          56.95
+        ]
+      },
+      "properties": {
+        "capital": "Riga",
+        "country": "Latvia",
+        "suicides": 29.26,
+        "boomers": 40.59,
+        "gi_gen": 67.66,
+        "gen_x": 26.73,
+        "gen_z": 0.45,
+        "millenials": 10.04,
+        "silent": 45.01	
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.28,
+          54.69
+        ]
+      },
+      "properties": {
+        "capital": "Vilnius",
+        "country": "Lithuania",
+        "suicides": 40.42,
+        "boomers": 61.76,
+        "gi_gen": 63.87,
+        "gen_x": 40.88,
+        "gen_z": 1.33,
+        "millenials": 17.39,
+        "silent": 57.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.13,
+          49.61
+        ]
+      },
+      "properties": {
+        "capital": "Luxembourg",
+        "country": "Luxembourg",
+        "suicides": 16.55,
+        "boomers": 18.59,
+        "gi_gen": 37.96,
+        "gen_x": 10.36,
+        "gen_z": 0.54,
+        "millenials": 3.99,
+        "silent": 24.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.51,
+          35.9
+        ]
+      },
+      "properties": {
+        "capital": "Valletta",
+        "country": "Malta",
+        "suicides": 5.03,
+        "boomers": 6.36,
+        "gi_gen": 5.07,
+        "gen_x": 5.38,
+        "gen_z": 0.55,
+        "millenials": 2.64,
+        "silent": 6.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.26,
+          42.44
+        ]
+      },
+      "properties": {
+        "capital": "Podgorica",
+        "country": "Montenegro",
+        "suicides": 9.95,
+        "boomers": 9.13,
+        "gi_gen": 0.00,
+        "gen_x": 5.10,
+        "gen_z": 1.93,
+        "millenials": 1.34,
+        "silent": 22.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.89,
+          52.37
+        ]
+      },
+      "properties": {
+        "capital": "Amsterdam",
+        "country": "Netherlands",
+        "suicides": 10.65,
+        "boomers": 13.27,
+        "gi_gen": 21.32,
+        "gen_x": 8.11,
+        "gen_z": 0.30,
+        "millenials": 4.02,
+        "silent": 13.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          59.91
+        ]
+      },
+      "properties": {
+        "capital": "Oslo",
+        "country": "Norway",
+        "suicides": 12.94,
+        "boomers": 15.89,
+        "gi_gen": 18.52,
+        "gen_x": 13.01,
+        "gen_z": 0.45,
+        "millenials": 6.95,
+        "silent": 15.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.01,
+          52.23
+        ]
+      },
+      "properties": {
+        "capital": "Warsaw",
+        "country": "Poland",
+        "suicides": 15.27,
+        "boomers": 22.95,
+        "gi_gen": 19.68,
+        "gen_x": 14.12,
+        "gen_z": 0.58,
+        "millenials": 7.34,
+        "silent": 20.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.13,
+          38.72
+        ]
+      },
+      "properties": {
+        "capital": "Lisbon",
+        "country": "Portugal",
+        "suicides": 11.34,
+        "boomers": 9.08,
+        "gi_gen": 27.91,
+        "gen_x": 4.94,
+        "gen_z": 0.14,
+        "millenials": 2.2,
+        "silent": 20.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.11,
+          44.43
+        ]
+      },
+      "properties": {
+        "capital": "Bucharest",
+        "country": "Romania",
+        "suicides": 12.5,
+        "boomers": 17.67,
+        "gi_gen": 21.05,
+        "gen_x": 9.57,
+        "gen_z": 0.83,
+        "millenials": 4.27,
+        "silent": 18.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62,
+          55.75
+        ]
+      },
+      "properties": {
+        "capital": "Moscow",
+        "country": "Russia",
+        "suicides": 34.9,
+        "boomers": 43.32,
+        "gi_gen": 61.16,
+        "gen_x": 32.47,
+        "gen_z": 1.37,
+        "millenials": 14.82,
+        "silent": 48.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.45,
+          43.94
+        ]
+      },
+      "properties": {
+        "capital": "San Marino",
+        "country": "San Marino",
+        "suicides": 4.05,
+        "boomers": 4.17,
+        "gi_gen": 0.00,
+        "gen_x": 4.73,
+        "gen_z": 0.0,
+        "millenials": 0.00,
+        "silent": 9.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.47,
+          44.8
+        ]
+      },
+      "properties": {
+        "capital": "Belgrade",
+        "country": "Serbia",
+        "suicides": 22.16,
+        "boomers": 21.25,
+        "gi_gen": 83.59,
+        "gen_x": 12.55,
+        "gen_z": 0.12,
+        "millenials": 4.83,
+        "silent": 48.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.11,
+          48.15
+        ]
+      },
+      "properties": {
+        "capital": "Bratislava",
+        "country": "Slovakia",
+        "suicides": 12.57,
+        "boomers": 18.28,
+        "gi_gen": 27.09,
+        "gen_x": 9.68,
+        "gen_z": 0.23,
+        "millenials": 3.32,
+        "silent": 18.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.51,
+          46.05
+        ]
+      },
+      "properties": {
+        "capital": "Ljubljana",
+        "country": "Slovenia",
+        "suicides": 27.83,
+        "boomers": 34.06,
+        "gi_gen": 68.54,
+        "gen_x": 19.79,
+        "gen_z": 0.35,
+        "millenials": 7.56,
+        "silent": 52.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7,
+          40.42
+        ]
+      },
+      "properties": {
+        "capital": "Madrid",
+        "country": "Spain",
+        "suicides": 9.43,
+        "boomers": 8.18,
+        "gi_gen": 24.37,
+        "gen_x": 5.49,
+        "gen_z": 0.15,
+        "millenials": 2.34,
+        "silent": 14.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.06,
+          59.33
+        ]
+      },
+      "properties": {
+        "capital": "Stockholm",
+        "country": "Sweden",
+        "suicides": 14.66,
+        "boomers": 18.06,
+        "gi_gen": 29.08,
+        "gen_x": 10.61,
+        "gen_z": 0.52,
+        "millenials": 6.21,
+        "silent": 20.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.45,
+          46.95
+        ]
+      },
+      "properties": {
+        "capital": "Berne",
+        "country": "Switzerland",
+        "suicides": 19.02,
+        "boomers": 20.13,
+        "gi_gen": 52.60,
+        "gen_x": 14.03,
+        "gen_z": 0.39,
+        "millenials": 6.09,
+        "silent": 35.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.52,
+          50.45
+        ]
+      },
+      "properties": {
+        "capital": "Kiev",
+        "country": "Ukraine",
+        "suicides": 26.58,
+        "boomers": 32.56,
+        "gi_gen": 48.89,
+        "gen_x": 19.09,
+        "gen_z": 1.23,
+        "millenials": 9.06,
+        "silent": 39.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13,
+          51.51
+        ]
+      },
+      "properties": {
+        "capital": "London",
+        "country": "United Kingdom",
+        "suicides": 7.5,
+        "boomers": 10.07,
+        "gi_gen": 11.91,
+        "gen_x": 7.64,
+        "gen_z": 0.14,
+        "millenials": 3.39,
+        "silent": 8.09
+      }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -23.51,
+            14.93
+          ]
+        },
+        "properties": {
+          "capital": "Praia",
+          "country": "Cape Verde",
+          "suicides": 11.15,
+          "boomers": 8.40,
+          "gi_gen": 0.0,
+          "gen_x": 21.16,
+          "gen_z": 2.62,
+          "millenials": 7.28,
+          "silent": 20.19
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.5,
+            -20.16
+          ]
+        },
+        "properties": {
+          "capital": "Port Louis",
+          "country": "Mauritius",
+          "suicides": 11.7,
+          "boomers": 15.12,
+          "gi_gen": 13.32,
+          "gen_x": 13.83,
+          "gen_z": 0.91,
+          "millenials": 7.18,
+          "silent": 12.06
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            28.19,
+            -25.74
+          ]
+        },
+        "properties": {
+          "capital": "Pretoria",
+          "country": "South Africa",
+          "suicides": 0.96,
+          "boomers": 1.00,
+          "gi_gen": 1.44,
+          "gen_x": 1.02,
+          "gen_z": 0.10,
+          "millenials": 0.85,
+          "silent": 1.19
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.69,
+            35.69
+          ]
+        },
+        "properties": {
+          "capital": "Edo",
+          "country": "Japan",
+          "suicides": 21.57,
+          "boomers": 23.07,
+          "gi_gen": 46.44,
+          "gen_x": 13.95,
+          "gen_z": 0.65,
+          "millenials": 8.81,
+          "silent": 30.97
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            71.45,
+            51.18
+          ]
+        },
+        "properties": {
+          "capital": "Astana",
+          "country": "Kazakhstan",
+          "suicides": 30.51,
+          "boomers": 36.00,
+          "gi_gen": 49.86,
+          "gen_x": 32.87,
+          "gen_z": 2.78,
+          "millenials": 15.58,
+          "silent": 39.28
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.59,
+            42.87
+          ]
+        },
+        "properties": {
+          "capital": "Bishkek",
+          "country": "Kyrgyzstan",
+          "suicides": 14.3,
+          "boomers": 17.48,
+          "gi_gen": 31.27,
+          "gen_x": 13.07,
+          "gen_z": 1.95,
+          "millenials": 6.52,
+          "silent": 18.06
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.55,
+            22.2
+          ]
+        },
+        "properties": {
+          "capital": "Macao",
+          "country": "Macao",
+          "suicides": 14.31,
+          "boomers": 8.10,
+          "gi_gen": 52.18,
+          "gen_x": 4.32,
+          "gen_z": 0.00,
+          "millenials": 0.00,
+          "silent": 13.17
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            73.51,
+            4.17
+          ]
+        },
+        "properties": {
+          "capital": "Malé",
+          "country": "Maldives",
+          "suicides": 1.37,
+          "boomers": 1.30,
+          "gi_gen": 0.00,
+          "gen_x": 0.61,
+          "gen_z": 0.42,
+          "millenials": 0.63,
+          "silent": 2.85
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.88,
+            47.91
+          ]
+        },
+        "properties": {
+          "capital": "Ulan Bator",
+          "country": "Mongolia",
+          "suicides": 18.44,
+          "boomers": 13.11,
+          "gi_gen": 0.00,
+          "gen_x": 18.75,
+          "gen_z": 0.00,
+          "millenials": 22.43,
+          "silent": 15.48
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            120.98,
+            14.6
+          ]
+        },
+        "properties": {
+          "capital": "Manila",
+          "country": "Philippines",
+          "suicides": 2.42,
+          "boomers": 2.13,
+          "gi_gen": 3.06,
+          "gen_x": 2.65,
+          "gen_z": 0.23,
+          "millenials": 1.78,
+          "silent": 3.30
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            126.98,
+            37.57
+          ]
+        },
+        "properties": {
+          "capital": "Seoul",
+          "country": "South Korea",
+          "suicides": 25.14,
+          "boomers": 21.40,
+          "gi_gen": 26.83,
+          "gen_x": 14.50,
+          "gen_z": 0.87,
+          "millenials": 8.56,
+          "silent": 58.61
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.85,
+            1.29
+          ]
+        },
+        "properties": {
+          "capital": "Singapore",
+          "country": "Singapore",
+          "suicides": 17.05,
+          "boomers": 12.45,
+          "gi_gen": 60.64,
+          "gen_x": 8.03,
+          "gen_z": 0.35,
+          "millenials": 3.91,
+          "silent": 22.35
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.85,
+            6.93
+          ]
+        },
+        "properties": {
+          "capital": "Colombo",
+          "country": "Sri Lanka",
+          "suicides": 35.3,
+          "boomers": 40.34,
+          "gi_gen": 56.54,
+          "gen_x": 36.10,
+          "gen_z": 0.00,
+          "millenials": 8.49,
+          "silent": 41.12
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.5,
+            13.75
+          ]
+        },
+        "properties": {
+          "capital": "Bangkok",
+          "country": "Thailand",
+          "suicides": 7.07,
+          "boomers": 8.42,
+          "gi_gen": 7.42,
+          "gen_x": 9.08,
+          "gen_z": 0.32,
+          "millenials": 3.76,
+          "silent": 8.49
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            32.85,
+            39.92
+          ]
+        },
+        "properties": {
+          "capital": "Ankara",
+          "country": "Turkey",
+          "suicides": 2.37,
+          "boomers": 2.60,
+          "gi_gen": 0.00,
+          "gen_x": 2.42,
+          "gen_z": 0.33,
+          "millenials": 2.43,
+          "silent": 3.70
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            58.38,
+            37.95
+          ]
+        },
+        "properties": {
+          "capital": "Ashkhabad",
+          "country": "Turkmenistan",
+          "suicides": 8.61,
+          "boomers": 10.11,
+          "gi_gen": 15.77,
+          "gen_x": 9.86,
+          "gen_z": 0.59,
+          "millenials": 4.84,
+          "silent": 8.10
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            69.22,
+            41.26
+          ]
+        },
+        "properties": {
+          "capital": "Tashkent",
+          "country": "Uzbekistan",
+          "suicides": 8.1,
+          "boomers": 10.47,
+          "gi_gen": 11.9,
+          "gen_x": 8.98,
+          "gen_z": 1.50,
+          "millenials": 4.68,
+          "silent": 8.48
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            172.98,
+            1.33
+          ]
+        },
+        "properties": {
+          "capital": "South Tarawa",
+          "country": "Kiribati",
+          "suicides": 6.66,
+          "boomers": 8.92,
+          "gi_gen":	0.00,
+          "gen_x": 11.46,
+          "gen_z": 0.00,
+          "millenials": 2.47,
+          "silent": 6.75
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.38,
+            -34.61
+          ]
+        },
+        "properties": {
+          "capital": "Buenos Aires",
+          "country": "Argentina",
+          "suicides": 10.47,
+          "boomers": 7.96,
+          "gi_gen":	25.11,
+          "gen_x": 6.21,
+          "gen_z": 0.86,
+          "millenials": 6.63,
+          "silent": 14.74
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -47.93,
+            -15.78
+          ]
+        },
+        "properties": {
+          "capital": "Brasília",
+          "country": "Brazil",
+          "suicides": 5.85,
+          "boomers": 6.22,
+          "gi_gen":	10.46,
+          "gen_x": 4.61,
+          "gen_z": 0.36,
+          "millenials": 3.05,
+          "silent": 8.05
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.65,
+            -33.46
+          ]
+        },
+        "properties": {
+          "capital": "Santiago",
+          "country": "Chile",
+          "suicides": 10.54,
+          "boomers": 11.09,
+          "gi_gen":	14.13,
+          "gen_x": 9.22,
+          "gen_z": 0.92,
+          "millenials": 7.26,
+          "silent": 14.58
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.08,
+            4.61
+          ]
+        },
+        "properties": {
+          "capital": "Bogotá",
+          "country": "Colombia",
+          "suicides": 5.4,
+          "boomers": 4.94,
+          "gi_gen":	6.2,
+          "gen_x": 5.48,
+          "gen_z": 0.96,
+          "millenials": 4.72,
+          "silent": 6.84
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.52,
+            -0.23
+          ]
+        },
+        "properties": {
+          "capital": "Quito",
+          "country": "Ecuador",
+          "suicides": 6.3,
+          "boomers": 6.47,
+          "gi_gen":	6.23,
+          "gen_x": 7.06,
+          "gen_z": 1.79,
+          "millenials": 6.10,
+          "silent": 6.56
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.16,
+            6.8
+          ]
+        },
+        "properties": {
+          "capital": "Georgetown",
+          "country": "Guyana",
+          "suicides": 22.2,
+          "boomers": 26.60,
+          "gi_gen":	14.65,
+          "gen_x": 26.16,
+          "gen_z": 3.15,
+          "millenials": 17.72,
+          "silent": 25.79
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.64,
+            -25.3
+          ]
+        },
+        "properties": {
+          "capital": "Asunción",
+          "country": "Paraguay",
+          "suicides": 4.22,
+          "boomers": 3.75,
+          "gi_gen":	4.41,
+          "gen_x": 3.78,
+          "gen_z": 1.04,
+          "millenials": 4.40,
+          "silent": 5.46
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -55.17,
+            5.87
+          ]
+        },
+        "properties": {
+          "capital": "Paramaribo",
+          "country": "Suriname",
+          "suicides": 21.32,
+          "boomers": 21.62,
+          "gi_gen":	26.95,
+          "gen_x": 18.91,
+          "gen_z": 4.11,
+          "millenials": 16.02,
+          "silent": 28.80
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -56.17,
+            -34.83
+          ]
+        },
+        "properties": {
+          "capital": "Montevideo",
+          "country": "Uruguay",
+          "suicides": 19.46,
+          "boomers": 17.12,
+          "gi_gen":	37.31,
+          "gen_x": 11.96,
+          "gen_z": 0.81,
+          "millenials": 9.65,
+          "silent": 32.14
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.04,
+            38.9
+          ]
+        },
+        "properties": {
+          "capital": "Washington",
+          "country": "United States",
+          "suicides": 13.82,
+          "boomers": 15.75,
+          "gi_gen":	25.63,
+          "gen_x": 11.91,
+          "gen_z": 0.74,
+          "millenials": 6.70,
+          "silent": 17.05
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.85,
+            17.12
+          ]
+        },
+        "properties": {
+          "capital": "St. John's",
+          "country": "Antigua and Barbuda",
+          "suicides": 0.55,
+          "boomers": 1.24,
+          "gi_gen":	0.00,
+          "gen_x": 0.000,
+          "gen_z": 0.00,
+          "millenials": 0.00,
+          "silent": 1.42
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.03,
+            12.52
+          ]
+        },
+        "properties": {
+          "capital": "Oranjestad",
+          "country": "Aruba",
+          "suicides": 9.5,
+          "boomers": 10.34,
+          "gi_gen":	76.58,
+          "gen_x": 12.02,
+          "gen_z": 0.00,
+          "millenials": 2.21,
+          "silent": 7.14
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.34,
+            25.06
+          ]
+        },
+        "properties": {
+          "capital": "Nassau",
+          "country": "Bahamas",
+          "suicides": 1.25,
+          "boomers": 2.27,
+          "gi_gen":	0.00,
+          "gen_x": 1.56,
+          "gen_z": 0.25,
+          "millenials": 0.88,
+          "silent": 1.21
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -59.62,
+            13.1
+          ]
+        },
+        "properties": {
+          "capital": "Bridgetown",
+          "country": "Barbados",
+          "suicides": 2.97,
+          "boomers": 4.83,
+          "gi_gen":	5.06,
+          "gen_x": 2.45,
+          "gen_z": 0.00,
+          "millenials": 0.08,
+          "silent": 3.81
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.77,
+            17.25
+          ]
+        },
+        "properties": {
+          "capital": "Belmopan",
+          "country": "Belize",
+          "suicides": 6.23,
+          "boomers": 7.25,
+          "gi_gen":	7.58,
+          "gen_x": 6.19,
+          "gen_z": 0.86,
+          "millenials": 5.39,
+          "silent": 6.91
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.7,
+            45.41
+          ]
+        },
+        "properties": {
+          "capital": "Ottawa",
+          "country": "Canada",
+          "suicides": 12.47,
+          "boomers": 17.19,
+          "gi_gen":	16.67,
+          "gen_x": 12.35,
+          "gen_z": 0.81,
+          "millenials": 5.89,
+          "silent": 13.84
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.08,
+            9.93
+          ]
+        },
+        "properties": {
+          "capital": "San José",
+          "country": "Costa Rica",
+          "suicides": 7.09,
+          "boomers": 8.52,
+          "gi_gen":	9.66,
+          "gen_x": 7.03,
+          "gen_z": 0.70,
+          "millenials": 4.66,
+          "silent": 7.93
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.38,
+            23.13
+          ]
+        },
+        "properties": {
+          "capital": "Havana",
+          "country": "Cuba",
+          "suicides": 21.22,
+          "boomers": 20.02,
+          "gi_gen":	73.58,
+          "gen_x": 13.24,
+          "gen_z": 0.50,
+          "millenials": 3.68,
+          "silent": 39.10
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.19,
+            13.69
+          ]
+        },
+        "properties": {
+          "capital": "San Salvador",
+          "country": "El Salvador",
+          "suicides": 10.54,
+          "boomers": 11.67,
+          "gi_gen":	12.88,
+          "gen_x": 15.26,
+          "gen_z": 0.99,
+          "millenials": 7.82,
+          "silent": 9.38
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.75,
+            12.06
+          ]
+        },
+        "properties": {
+          "capital": "St. George's",
+          "country": "Grenada",
+          "suicides": 2.13,
+          "boomers": 3.39,
+          "gi_gen":	3.55,
+          "gen_x": 1.52,
+          "gen_z": 0.00,
+          "millenials": 0.25,
+          "silent": 3.45
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.51,
+            14.64
+          ]
+        },
+        "properties": {
+          "capital": "New Guatemala",
+          "country": "Guatemala",
+          "suicides": 3.2,
+          "boomers": 3.80,
+          "gi_gen":	4.19,
+          "gen_x": 3.11,
+          "gen_z": 0.47,
+          "millenials": 2.66,
+          "silent": 3.33
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.79,
+            18
+          ]
+        },
+        "properties": {
+          "capital": "Kingston",
+          "country": "Jamaica",
+          "suicides": 0.52,
+          "boomers": 0.60,
+          "gi_gen":	0.43,
+          "gen_x": 0.48,
+          "gen_z": 0.51,
+          "millenials": 0.34,
+          "silent": 0.70
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.13,
+            19.43
+          ]
+        },
+        "properties": {
+          "capital": "Mexico City",
+          "country": "Mexico",
+          "suicides": 4.71,
+          "boomers": 4.55,
+          "gi_gen":	7.03,
+          "gen_x": 4.31,
+          "gen_z": 0.84,
+          "millenials": 3.84,
+          "silent": 5.63
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.25,
+            12.13
+          ]
+        },
+        "properties": {
+          "capital": "Managua",
+          "country": "Nicaragua",
+          "suicides": 6.57,
+          "boomers": 6.65,
+          "gi_gen":	0.00,
+          "gen_x": 7.20,
+          "gen_z": 1.09,
+          "millenials": 9.25,
+          "silent": 6.36
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.52,
+            8.99
+          ]
+        },
+        "properties": {
+          "capital": "Panama City",
+          "country": "Panama",
+          "suicides": 5.81,
+          "boomers": 6.05,
+          "gi_gen":	8.39,
+          "gen_x": 5.55,
+          "gen_z": 0.41,
+          "millenials": 4.05,
+          "silent": 7.78
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -66.11,
+            18.47
+          ]
+        },
+        "properties": {
+          "capital": "San Juan",
+          "country": "Puerto Rico",
+          "suicides": 10.2,
+          "boomers": 12.95,
+          "gi_gen":	23.15,
+          "gen_x": 6.82,
+          "gen_z": 0.31,
+          "millenials": 2.87,
+          "silent": 13.15
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.01,
+            14
+          ]
+        },
+        "properties": {
+          "capital": "Castries",
+          "country": "Saint Lucia",
+          "suicides": 7.2,
+          "boomers": 9.56,
+          "gi_gen":	12.54,
+          "gen_x": 6.01,
+          "gen_z": 1.07,
+          "millenials": 2.93,
+          "silent": 8.60
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.22,
+            13.16
+          ]
+        },
+        "properties": {
+          "capital": "Kingstown",
+          "country": "Saint Vincent and the Grenadines",
+          "suicides": 5.76,
+          "boomers": 8.80,
+          "gi_gen":	3.70,
+          "gen_x": 5.63,
+          "gen_z": 1.17,
+          "millenials": 2.78,
+          "silent": 8.51
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.52,
+            10.67
+          ]
+        },
+        "properties": {
+          "capital": "Port of Spain",
+          "country": "Trinidad and Tobago",
+          "suicides": 13.83,
+          "boomers": 17.58,
+          "gi_gen":	16.51,
+          "gen_x": 14.07,
+          "gen_z": 0.78,
+          "millenials": 5.97,
+          "silent": 16.63
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.13,
+            -35.28
+          ]
+        },
+        "properties": {
+          "capital": "Canberra",
+          "country": "Australia",
+          "suicides": 13,
+          "boomers": 16.09,
+          "gi_gen":	19.05,
+          "gen_x": 14.35,
+          "gen_z": 0.50,
+          "millenials": 6.59,
+          "silent": 13.92	
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.78,
+            -41.29
+          ]
+        },
+        "properties": {
+          "capital": "Wellington",
+          "country": "New Zealand",
+          "suicides": 14.4,
+          "boomers": 15.81,
+          "gi_gen":	18.69,
+          "gen_x": 17.86,
+          "gen_z": 1.05,
+          "millenials": 9.38,
+          "silent": 13.57
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.77,
+            35.23
+          ]
+        },
+        "properties": {
+          "capital": "Jerusalem",
+          "country": "Israel",
+          "suicides": 8.95,
+          "boomers": 7.97,
+          "gi_gen":	24.55,
+          "gen_x": 5.65,
+          "gen_z": 0.31,
+          "millenials": 3.12,
+          "silent": 11.95
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.89,
+            40.38
+          ]
+        },
+        "properties": {
+          "capital": "Baku",
+          "country": "Azerbaijan",
+          "suicides": 1.86,
+          "boomers": 2.12,
+          "gi_gen":	2.62,
+          "gen_x": 1.26,
+          "gen_z": 0.28,
+          "millenials": 0.57,
+          "silent": 3.06
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.58,
+            26.22
+          ]
+        },
+        "properties": {
+          "capital": "Manama",
+          "country": "Bahrain",
+          "suicides": 1.85,
+          "boomers": 3.26,
+          "gi_gen":	0.42,
+          "gen_x": 3.07,
+          "gen_z": 0.24,
+          "millenials": 1.28,
+          "silent": 1.21
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.51,
+            40.18
+          ]
+        },
+        "properties": {
+          "capital": "Yerevan",
+          "country": "Armenia",
+          "suicides": 3.28,
+          "boomers": 3.34,
+          "gi_gen":	7.07,
+          "gen_x": 1.90,
+          "gen_z": 0.29,
+          "millenials": 0.90,
+          "silent": 6.48
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.83,
+            41.69
+          ]
+        },
+        "properties": {
+          "capital": "Tbilisi",
+          "country": "Georgia",
+          "suicides": 4.23,
+          "boomers": 4.15,
+          "gi_gen":	9.25,
+          "gen_x": 3.08,
+          "gen_z": 0.28,
+          "millenials": 1.41,
+          "silent": 7.58
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.98,
+            29.37
+          ]
+        },
+        "properties": {
+          "capital": "Kuwait City",
+          "country": "Kuwait",
+          "suicides": 1.2,
+          "boomers": 2.14,
+          "gi_gen":	0.25,
+          "gen_x": 2.07,
+          "gen_z": 0.16,
+          "millenials": 0.86,
+          "silent": 0.51
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            58.59,
+            23.61
+          ]
+        },
+        "properties": {
+          "capital": "Muscat",
+          "country": "Oman",
+          "suicides": 0.74,
+          "boomers": 0.26,
+          "gi_gen":	0.00,
+          "gen_x": 0.45,
+          "gen_z": 0.00,
+          "millenials": 0.29,
+          "silent": 1.95
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.52,
+            25.28
+          ]
+        },
+        "properties": {
+          "capital": "Doha",
+          "country": "Qatar",
+          "suicides": 1.8,
+          "boomers": 2.13,
+          "gi_gen":	0.00,
+          "gen_x": 2.33,
+          "gen_z": 0.09,
+          "millenials": 1.81,
+          "silent": 1.90
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.37,
+            24.47
+          ]
+        },
+        "properties": {
+          "capital": "Abu Dhabi",
+          "country": "United Arab Emirates",
+          "suicides": 1.32,
+          "boomers": 1.77,
+          "gi_gen":	0.00,
+          "gen_x": 1.69,
+          "gen_z": 0.08,
+          "millenials": 1.20,
+          "silent": 1.41
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            178.44,
+            -18.14
+          ]
+        },
+        "properties": {
+          "capital": "Suva",
+          "country": "Fiji",
+          "suicides": 5.11,
+          "boomers": 3.86,
+          "gi_gen":	0.00,
+          "gen_x": 4.77,
+          "gen_z": 0.13,
+          "millenials": 3.69,
+          "silent": 8.56
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            55.45,
+            -4.62
+          ]
+        },
+        "properties": {
+          "capital": "Victoria",
+          "country": "Seychelles",
+          "suicides": 7.48,
+          "boomers": 9.93,
+          "gi_gen":	2.98,
+          "gen_x": 7.17,
+          "gen_z": 0.00,
+          "millenials": 4.76,
+          "silent": 12.13
+        }
+      }
+  ]

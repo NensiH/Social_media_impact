@@ -1,0 +1,23 @@
+mentalhealth
+-
+country varchar
+year date FK >- usage.year
+sex varchar
+age_range varchar
+suicides_no int
+population int
+suicides_100k_pop int
+country_year varchar
+HDI_for_year int
+gdp_for_year int
+gdp_per_capita int
+generation varchar FK >- usage.generation
+
+usage
+-
+year date
+age_range varchar
+usage int
+age_med int
+year_born date
+generation varchar
