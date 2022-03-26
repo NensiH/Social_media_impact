@@ -85,13 +85,13 @@ The linear regression model is a “best fit” line through all data points. Th
 The random forest regressor model takes the averages of many weaker decision trees and combines them to get better overall performance. The advantage of using this model is it tends to result in a very high quality models and fast to train. However, the disadvantages of using this model is can be slow to output predictions relative to other algorithms and can be difficult to understand predictions. 
 After training both models, we decided to go with the random forest regressor due to its improvement in the mean squared error, R-square, and both training and testing scores compared to the linear regression model. 
 
-Linear Regression Model:
+#### Linear Regression Model:
 
 ![lr_mse_r2](https://user-images.githubusercontent.com/92401000/160256640-75266805-36f5-44d7-9f27-84a0dc16357e.PNG)
 
 ![lr_scores](https://user-images.githubusercontent.com/92401000/160256645-dc4a1bb5-4fc7-4df3-9e31-fa3950fb4caf.PNG)
 
-Random Forest Regressor Model:
+#### Random Forest Regressor Model:
 
 ![rf_mse_r2](https://user-images.githubusercontent.com/92401000/160256713-5feb54db-3820-4911-bcf4-3ac33407261a.PNG)
 
@@ -121,6 +121,7 @@ The top 3 most important features impacting the random forest regressor model ar
 -	sex_m
 -	age_range_5-14 years
 -	sex_f
+
 The advantage of using Scikit-learn default feature importance is it provides a fast calculation and is easy to retrieve in one command. However, the disadvantage is it has a tendency to inflate the importance of continuous features or high-cardinality categorical variables (as seen in male and female sex).
 
 ## Visualization/Dashboard: 
