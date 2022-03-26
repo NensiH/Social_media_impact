@@ -97,7 +97,7 @@ After training both models, we decided to go with the random forest regressor du
 
 ![rf_scores](https://user-images.githubusercontent.com/92401000/160256715-0cb58094-bd7e-4516-9ac2-439f8356b35b.PNG)
 
-The random forest regressor model also showed improvement in the residual plot. A residual plot shows the difference between the true value of y and the predicted values of y, ideally we want out predictions to be close to zero on the y-axis. We can see in the linear regression residual plot, the difference is between the ranges of negative 15 to 10. In the random forest regressor residual plot, the ranges improve by decreasing to a range of negative 2 to 1.5.
+The random forest regressor model also showed improvement in the residual plot. A residual plot shows the difference between the true value of y and the predicted values of y, ideally we want our predictions to be close to zero on the y-axis. We can see in the linear regression residual plot, the difference is between the ranges of negative 15 to 10. In the random forest regressor residual plot, the ranges improve by decreasing to a range of negative 2 to 1.5.
 
 ![Fig2](https://user-images.githubusercontent.com/92401000/160256730-36e62161-c040-49ec-ab53-e6db33e61e3c.png)
 
