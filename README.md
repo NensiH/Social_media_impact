@@ -138,3 +138,13 @@ The map provides two toggle functions: one for the tile layer (i.e. the style of
 The map was created by cleaning our original Kaggle suicide dataset to contain only average suicides/100k per country and average suidies/100k per country per generation. The results were then added to a geoJSON file that lists the world capitals with geographical point data (the geoJSON file has been uploaded to a [Github page](https://tinabeee.github.io/Data/capitals2.geojson) to make API requests to it). The data is then requsted using d3.json and radius and color styled based on number of suicides. The bubbles are added together with a popup marker that displays the country name and number of suicides when clicked on.
 
 To download use the map, <b>you have to insert your own Mapbox API key</b>, or access token into the logic.js file. Mapbox provides 200,000 tile requests free of charge when you create a default public token with an account on the [Mapbox website](https://www.mapbox.com/). 
+
+## Findings
+
+
+## Hypothesis testing
+At the outset of our project, our null hypothesis was that there is no relationship between social media use and suicide rates, while our alternative hypothesis was that there is a relationship between suicides and social media use.
+
+Our analysis has shown that we cannot identify a correlation between the two datapoints as suicide is a complex socio-economic phenomenon with varied causes and influences. Social media use alone does not impact suicide rates, according to the datasets we analyzed. We therefore fail to reject our null hypothesis and find that there is no relationship between social media use and suicides.
+
+# Limitations
