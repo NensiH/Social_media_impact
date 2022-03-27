@@ -109,10 +109,10 @@ No changes were made.
 ### Description of how the model was trained (or retrained, if the team is using an existing model)
 In our random forest regressor model, we instantiated the model with 1,000 decision trees and used random_state = 42. We fit the model to the training data (X_train, y_train) then use the forest’s predict method on the test data (X_test) to predict the output y.
 
-### Description and explanation of model's accuracy score
+### Description and explanation of model's mean squared error (MSE) and R-squared score
 The random forest regressor model mean squared error (MSE) is 0.88265 and R-squared is 0.99394. The mean squared error (MSE) tells us how close a regression line is to a set of points. The lower the MSE, the better the forecast. The R-squared tells us how well the regression model fits the observed data. In our model, an r-squared of 0.99394 reveals that 99.39% of the data fit the regression model.
 
-The accuracy score for the training dataset is 0.99939 and for the testing dataset is 0.99394. 
+The R-squared score for the training dataset is 0.99939 and for the testing dataset is 0.99394. 
 
 ### Description of feature importance
 
