@@ -147,4 +147,4 @@ At the outset of our project, our null hypothesis was that there is no relations
 
 Our analysis has shown that we cannot identify a correlation between the two datapoints as suicide is a complex socio-economic phenomenon with varied causes and influences. Social media use alone does not impact suicide rates, according to the datasets we analyzed. We therefore fail to reject our null hypothesis and find that there is no relationship between social media use and suicides.
 
-# Limitations
+## Limitations
