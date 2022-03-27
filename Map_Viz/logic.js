@@ -72,10 +72,10 @@ let silent = new L.LayerGroup();
 // Add a reference to suicides to the overlays object
 let overlays = {
   "Suicides per 100k all generations": allSuicides,
-  "G.I. Generation (b. 1901 - 1927": giGen,
-  "Silent Generation (b. 1928 - 1945": silent,
+  "G.I. Generation (b. 1901 - 1927)": giGen,
+  "Silent Generation (b. 1928 - 1945)": silent,
   "Boomers (b. 1946 - 1964)": boomers,
-  "Gen X (b. 1965 - 1980": genX,
+  "Gen X (b. 1965 - 1980)": genX,
   "Millennials (b. 1981 - 1996)": millenials,
   "Gen Z (b. 1997 - 2012)": genZ
 };
