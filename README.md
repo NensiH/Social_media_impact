@@ -128,3 +128,13 @@ The advantage of using Scikit-learn default feature importance is it provides a 
 ## Visualization/Dashboard: 
 
 - We used Tableau as a part of our dashboard. Our Tableau analysis can be found here [Tableau Dashboard](https://public.tableau.com/app/profile/nensi7308/viz/SocialmediausageandSuiciderates/Dashboard1).
+
+- We use Mapbox and Leaflet to create an interactive global map of the suicide data. All the files used to create the map can be found in this repo's [Map_Viz](https://github.com/NensiH/Social_media_impact/tree/main/Map_Viz) folder:
+
+    <img width="1000" alt="Screen Shot 2022-03-27 at 13 35 28" src="https://user-images.githubusercontent.com/90064437/160295629-2ca18ac9-fa8b-46d8-92e5-42682102360e.png">
+
+The map provides two toggle functions: one for the tile layer (i.e. the style of the map) and one to toggle between the different generations. The data displays average country-level suicides on a per capita basis of 100,000 over the entire duration of the dataset (1985 - 2016). The map displays (bubbles) are located on each country's capital and both the radius and color of the bubbles represents the scale of per-capita suicides.
+
+The map was created by cleaning our original Kaggle suicide dataset to contain only average suicides/100k per country and average suidies/100k per country per generation. The results were then added to a geoJSON file that lists the world capitals with geographical point data (the geoJSON file has been uploaded to a Github page to make API requests to it). The data is then requsted using d3.json and radius and color styled based on number of suicides. The bubbles are added together with a popup marker that displays the country name and number of suicides when clicked on.
+
+To download use the map, <b>you have to insert your own Mapbox API key</b>, or access token into the logic.js file. Mapbox provides 200,000 tile requests free of charge when you create a default public token with an account on its website. 
