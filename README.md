@@ -2,7 +2,7 @@
 
 ![gettyimages-459883190-dcb1497c2baca73b4be735ecd2e139152cd1ef32-s1100-c50](https://user-images.githubusercontent.com/92277581/157372626-6bcbadbe-17f1-42c0-b21b-66f77e1b168e.jpeg)
 
-## Team:
+## Team
 
 [Quang Nguyen](https://github.com/utpetroleum)
 
@@ -13,6 +13,8 @@
 [Tina Bellon](https://github.com/TinaBeee)
 
 [Ima Richburg](https://github.com/imarichburg)
+
+## Topic
 
 ### Selected topic
 An examination of suicides across several decades, countries and generations that also looks at the correlation between social media use and suicide rates in the U.S. in more recent years among younger generations.
@@ -28,9 +30,6 @@ Suicide is a serious societal problem and the result of complex socioeconomic an
 We are using a suicide data set from Kaggle, which lists suicides from around the world by country from 1985 until 2015. The data is split by gender, age and generation, and also lists the respective country's Human Development Index and GDP in a particular year.
 
 For social media usage, we rely on a Pew Research dataset that collected the share of U.S. adults using different forms of social media from 2005 through 2021. The data is broken down by age groups.
-
-### Data Integration:
-The Team have reviewed all the datasets listed previously, selected the main and the supporting datasets, and worked on cleaning and analyzing them. The main dataset was preprocessed and analyzed in order to test a ML model and to select the most appropriate one. We have used Python and Jupyter notebook to transform structured and unstructured data as well as data cleaning and deliver it to SQL for necessary joins and divide data into meaningful CSVs. We have then used these datasets for Tableau visualization.
 
 ### Questions we hope to answer with the data
 We want to analyze how suicide rates changed over the decades and across different generations to determine specific patterns and identify high-risk groups for suicide. We plan to use two types of regression analyses to determine if our algorithm can accurately predict suicide rates among the different generations we identify.
@@ -124,6 +123,57 @@ The top 3 most important features impacting the random forest regressor model ar
 -	sex_f
 
 The advantage of using Scikit-learn default feature importance is it provides a fast calculation and is easy to retrieve in one command. However, the disadvantage is it has a tendency to inflate the importance of continuous features or high-cardinality categorical variables (as seen in male and female sex).
+
+## Database Integration
+
+### Database stores static data for use during the project
+Before storing socialmedia_mentalhealth.csv and socialmedia_usage_agewise.csv files into Postgres, both files were cleaned using jupyter notebook. 
+In socialmedia_mentalhealth.csv, we renamed the column “suicide_year” to “year” so it can be merged with socialmedia_usage_agewise.csv within jupyter notebook. We removed rows where year = 2016 due to incomplete data and reset the index. Then we exported the cleaned dataframe as a new csv file and import dataframe into Postgres “social_media_impact” database as “mentalhealth” table using SQLAlchemy.
+
+![mentalhealth_df](https://user-images.githubusercontent.com/92401000/160475009-e81194ea-d2df-4460-af01-4fa1985d3aea.png)
+
+In socialmedia_usage_agewise.csv, we extracted the “year” from “usagedate” column and set it as a new column, then dropped the “usagedate” column. We created a new column “25-34 years age range” by taking the weighted average of “age_18_29_per” and “age_30_49_per” columns, then we renamed the other columns to match socialmedia_mentalhealth.csv age range. We used the “.melt” function to transpose the columns to rows. Then we use the median age of each age_range column to calculate the year born. Based on the year born, we used “.loc” function and conditionals to determine each age_range’s generation and added as a new column. Then we exported the cleaned dataframe as a new csv file and import dataframe into Postgres “social_media_impact” database as “usage” table using SQLAlchemy.
+
+![usage_df](https://user-images.githubusercontent.com/92401000/160475045-85119037-045b-4d98-bc49-3e98d0e3bd61.png)
+
+We decided to merge both these cleaned datasets by importing the csv files into jupyter notebook. Because we wanted to compared the suicide rates versus social media usage within the USA, we filtered the cleaned socialmedia_mentalhealth to “country” = “United States” and “year” >= “2005”. Once the socialmedia_mentalhealth was filtered, we merged it with the cleaned socialmedia_usage_agewise using an “inner join” on the “year” and “generation” columns. Then we exported the merged dataframe as a new csv file and import dataframe into Postgres “social_media_impact” database as “merged” table using SQLAlchemy. 
+
+![merged_df](https://user-images.githubusercontent.com/92401000/160475082-87361fac-8a0f-4b24-8be3-1e1827a85132.png)
+
+Note: We like to note that because we merged both datasets on non-unique columns, the merged dataframe contained a few duplicated rows.
+### Database interfaces with the project in some format (e.g., scraping updates the database)
+For data visualization, we decided to use Tableau a one of our BI tool. We made a live connection to PostgreSQL database to import our mentalhealth, usage, and join_usa tables. 
+
+![tableau_integration](https://user-images.githubusercontent.com/92401000/160475319-e66e8746-f137-409a-9110-54546729fca7.PNG)
+
+### Includes at least two tables (or collections, if using MongoDB)
+After cleaning both our socialmedia_mentalhealth.csv and socialmedia_usage_agewise.csv, we imported the cleaned dataframes into social_media_impact database as "mentalhealth" and "usage" tables in Postgres using SQLAlchemy. 
+### Includes at least one join using the database language (not including any joins in Pandas)
+#### mentalhealth and usage tables ERD
+
+![social_media_impact ERD](https://user-images.githubusercontent.com/92401000/160477657-c6aea87b-7131-49ed-8414-f3379a27e8e8.PNG)
+
+In pgAdmin 4, we created two separate tables using two separate joins. First, we opened a query tool for social_media_impact database, performed an inner join on mentalhealth and usage tables on “year” and “generation”, output it as “join_allcountry” table. 
+
+![join_allcountry_query](https://user-images.githubusercontent.com/92401000/160475962-a590a461-2592-4f5b-81a2-7de220557530.PNG)
+
+For our second join, we performed an inner join on mentalhealth and usage tables on “year” and “generation” where “country” = “United States” and output it as “join_usa” table.
+
+![join_usa_query](https://user-images.githubusercontent.com/92401000/160476042-6c82bd76-c516-4ea9-9e31-fc97b09c3be5.PNG)
+
+### Includes at least one connection string (using SQLAlchemy or PyMongo)
+In this project, we used SQLAlchemy connection string twice. After data cleaning for socialmedia_mentalhealth.csv and socialmedia_usage_agewise.csv, we imported the cleaned dataframes into social_media_impact database in Postgres using SQLAlchemy.
+#### mentalhealth
+
+![mentalhealth_connection_code](https://user-images.githubusercontent.com/92401000/160476909-9b6cfe29-f132-4e10-bd88-0eee834ff1d3.PNG)
+
+#### usage
+
+![usage_connection_code](https://user-images.githubusercontent.com/92401000/160476932-5ce32c4e-c8eb-4322-a567-99acd76ee9ef.PNG)
+
+In our machine learning analysis, we connected to social_media_impact database using SQLAlchemy. We reflected the database into a new model and referenced the mentalhealth table as a class. We created our session (link) from python to the database, performed a query to retrieve all the necessary data, saved the query results as a dataframe and performed machine learning analysis on the dataframe. 
+
+![ml_connection_code](https://user-images.githubusercontent.com/92401000/160477280-d17e89f6-c8f6-4811-83a3-d17df944fef9.PNG)
 
 ## Visualization/Dashboard: 
 
