@@ -140,15 +140,15 @@ The map was created by cleaning our original Kaggle suicide dataset to contain o
 The map clearly illustrates that older generations are the most at-risk group for suicides, with average per-capita suicide numbers significantly higher for the Greatest Generation (those born between 1901 - 1927), and steadily decreasing the younger the generation gets:
 
 <p align="middle">
-  <img src="https://user-images.githubusercontent.com/90064437/160446929-db275a3b-eb96-4f0f-9259-fe3d7febe8fe.png" width="310" />
-  <img src="https://user-images.githubusercontent.com/90064437/160447326-9cf984e0-c0ae-41ff-b465-cc296126a9d9.png" width="310" />
-  <img src="https://user-images.githubusercontent.com/90064437/160447124-9dbb966b-36ef-4618-9184-3cfa944fc1c1.png" width="310" />
+  <img src="https://user-images.githubusercontent.com/90064437/160446929-db275a3b-eb96-4f0f-9259-fe3d7febe8fe.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/90064437/160447326-9cf984e0-c0ae-41ff-b465-cc296126a9d9.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/90064437/160447124-9dbb966b-36ef-4618-9184-3cfa944fc1c1.png" width="300" />
 </p>
 
 <p align="middle">
-  <img src="https://user-images.githubusercontent.com/90064437/160448028-27a04311-4f83-4ed2-958e-f91d6f10cde1.png" width="310" />
-  <img src="https://user-images.githubusercontent.com/90064437/160448453-10ede7ab-034b-43f5-a4b9-0cc408e7fb56.png" width="310" />
-  <img src="https://user-images.githubusercontent.com/90064437/160448581-c6dfb45b-81c5-4ab8-9e40-57c3533d2c8b.png" width="310" />
+  <img src="https://user-images.githubusercontent.com/90064437/160448028-27a04311-4f83-4ed2-958e-f91d6f10cde1.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/90064437/160448453-10ede7ab-034b-43f5-a4b9-0cc408e7fb56.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/90064437/160448581-c6dfb45b-81c5-4ab8-9e40-57c3533d2c8b.png" width="300" />
 </p>
 
 
