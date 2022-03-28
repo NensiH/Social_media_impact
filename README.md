@@ -202,7 +202,7 @@ The map clearly illustrates that older generations are the most at-risk group fo
 </p>
 
 
-To download and use the map, <b>you have to insert your own Mapbox API key</b>, or access token into the logic.js file. Mapbox provides 200,000 tile requests free of charge when you create a default public token with an account on the [Mapbox website](https://www.mapbox.com/). 
+To download and use the map on your own site, <b>you have to insert your own Mapbox API key</b>, or access token into the logic.js file. The current access token only works with one URL and cannot be used elsewhere. Mapbox provides 200,000 tile requests free of charge when you create a default public token with an account on the [Mapbox website](https://www.mapbox.com/). 
 
 ## Findings
 
