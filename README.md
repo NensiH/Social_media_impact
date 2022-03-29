@@ -241,4 +241,16 @@ So, to summarize, **Social Media is not the ONLY factor contributing to rising s
 ![image](https://user-images.githubusercontent.com/92283185/160528209-35c3b9dc-e329-496f-ae27-d332f3c312c1.png)
 
 
+## Limitations alternative
+We have encountered several restrictions while working on this project. First and foremost, we were limited by available data resources. 
+Suicides are the most extreme and serious form of mental health disorders and for every suicide there are many people who attempt suicide, according to the World Health Organization. Those numerous suicide attempts are not included in our dataset.
 
+Nor were we able to find good datasets that provide more granular details on the mental health status across various populations and generations. [Muliple studies](https://www.researchgate.net/profile/Shabir-Bhat/publication/323018957_Effects_of_Social_Media_on_Mental_Health_A_Review/links/5a7c9e97aca272341aeb7472/Effects-of-Social-Media-on-Mental-Health-A-Review.pdf) have found a strong link between heavy social media use and an increased risk for [depression](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3907111/), [stress](https://www.researchgate.net/publication/343205479_Impact_of_Social_Media_on_Adolescent's_Mental_Health), anxiety, [loneliness](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3820167/), self-harm and even suicidal thoughts.
+
+The longest-running study on the relationship between social media use and suicidality we were able to find is a [ten-year study](https://link.springer.com/article/10.1007/s10964-020-01389-6) published in the Journal for Youth and Adolescence in 2021. The study followed 500 adolescents from 2009 and found that for girls, a high level of social media or television use in early adolescence followed by a marked increase over time was most predictive of suicide risk in emerging adulthood. The use of entertainment apps was risky for girls while reading apps were risky for boys.
+
+[Other researchers](https://journals.sagepub.com/doi/10.1177/2167702618812727) have found that a suggested link between social media use and suicides is in fact caused by underlying depression, which is commonly linked to suicides and during which some patients spend more time alone in social networks. Our limited dataset is not able to consider those complexities.
+
+Moreover, our analysis was limited by the timeframe of available data. Our suicide dataset spans the years 1984 to 2016, ending just as social media use begins to be more prevalent among all age groups. Our Pew Research social media use dataset on the other hand covers the years 2005 through 2021.
+
+In addition to a lack of broader mental health and timeframe data, our data also does not account for detailed economic events, such as the 2008 financial crisis, which caused many Americans to lose their homes and livelihood. Suicides in the U.S. increased in 2008 and the following years, which could be correlated with economic upheaval, but our current data does not allow us to draw such conclusions.
