@@ -212,7 +212,20 @@ The map clearly illustrates that older generations are the most at-risk group fo
 To download and use the map on your own site, <b>you have to insert your own Mapbox API key</b>, or access token into the logic.js file. The current access token only works with one URL and cannot be used elsewhere. Mapbox provides 200,000 tile requests free of charge when you create a default public token with an account on the [Mapbox website](https://www.mapbox.com/). 
 
 ## Findings
+An analysis of our social media dataset shows that older people and older generations are at heightened risk for suicide. The average number of suicides on a 100k population basis significantly increases with age. Among those older than 75, th suicide rate is more than twice as high as among the group of 15 to 24-year-olds. 
 
+**GRAPHIC HERE*
+
+
+Furthermore, suicides among men are significantly higher than among women, a trend that has been consistent over the decades.
+
+**GRAPHIC HERE*
+
+Geographically, we found that suicides in countries of the former Soviet Union are significantly higher than anywhere else in the world of those countries included in our dataset. Several research articles attribute the collapse of the Soviet Union and the drastic socio-eeconomic changes for the increased suicide rate.
+
+**GRAPHIC HERE PERHAPS ON TOP 100K SUICIDE COUNTRIES?**
+
+When it comes to social media use and its relationship to suicides, we have not been able to establish a connection based on the limited data we have (more details in our limitations section). While we were able to graphically show an increase in U.S. social media use and suicides among younger U.S. generations, the data is not conclusive on whether there is a connection between the two. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media use is very low.
 
 ## Hypothesis testing
 At the outset of our project, our null hypothesis was that there is no relationship between social media use and suicide rates, while our alternative hypothesis was that there is a relationship between suicides and social media use.
