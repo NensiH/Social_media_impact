@@ -1,0 +1,33 @@
+create table socialmedia_mentalhealth(
+country varchar(50),
+suicide_year int,
+sex varchar(1),
+age int,
+suicides_no int,
+population int,
+suicides_100k_pop float,
+country_year varchar(50),
+HDI_for_year real,
+gdp_for_year bigserial,
+gdp_per_capita int,
+generation varchar(50)
+
+-----------------------------------------------------------------------------------------------------------------
+
+create table socialmedia_usage_agewise(
+usagedate int Primary key,
+age_18_20_per double precision,
+age_30_49_per double precision,
+age_50_64_per double precision,
+over_65_per double precision);
+
+------------------------------------------------------------------------------------------------------------------
+
+changing format from date to yearwise groupby
+
+select to_char(usagedate,'yyyy')as usageyear, sum(age_18_20_per)+ sum(age_30_49_per)as generation_x_z_millenials,
+sum(age_50_64_per) as silent_boomers, sum(over_65_per) as g_i_generation 
+into socialmedia_usage_generationwise
+from socialmedia_usage_agewise
+group by to_char(usagedate,'yyyy')
+order by to_char(usagedate,'yyyy');

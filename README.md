@@ -31,10 +31,17 @@ We are using a suicide data set from Kaggle, which lists suicides from around th
 
 For social media usage, we rely on a Pew Research dataset that collected the share of U.S. adults using different forms of social media from 2005 through 2021. The data is broken down by age groups.
 
+<<<<<<< HEAD
+### Data Integration:
+The Team have reviewed all the datasets listed previously, selected the main and the supporting datasets, and worked on cleaning and analyzing them. The main dataset was preprocessed and analyzed in order to test a ML model and to select the most appropriate one. We have used Python and Jupyter notebook to transform data for data cleaning and deliver it to SQL for necessary joins and divide data into meaningful CSVs. We have then used these datasets for Tableau visualization.
+
+=======
+>>>>>>> main
 ### Questions we hope to answer with the data
 We want to analyze how suicide rates changed over the decades and across different generations to determine specific patterns and identify high-risk groups for suicide. We plan to use two types of regression analyses to determine if our algorithm can accurately predict suicide rates among the different generations we identify.
 
 We also want to determine whether an uptick in social media use in recent years overlaps with an increase in suicide rates, particularly among younger cohorts who use social media in the greatest numbers. To determine correlation, we plan to visualize U.S. suicide rates and social media use over time.
+
 
 ## Tools
 - Source Control
