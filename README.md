@@ -212,25 +212,23 @@ At the outset of our project, our null hypothesis was that there is no relations
 
 Our analysis has shown that we cannot identify a correlation between the two datapoints as suicide is a complex socio-economic phenomenon with varied causes and influences. Social media use alone does not impact suicide rates, according to the datasets we analyzed. We therefore fail to reject our null hypothesis and find that there is no relationship between social media use and suicides.
 
-## Limitations
+## Limitations:
 
-Following are some of our limitations while working on this project - **Social Media Impact on Suicide Rates**:
+The following are some of the restrictions we encountered while working on this project: **The Impact of Social Media on Suicide Rates**:
 
-Yes you heard it right, Social Media is just an **impact** and not the only cause. Ofcourse correlation doesn’t always mean causation. But researchers suggest that the increase in mental illness is in part connected to the increase in social media use among young people. As you can see in below graph we can definatley corelate or we can say there is social media impact in young generation over the suicide cases.
+Yes, you read that correctly: social media is only a **cause**, not the sole one. Of course, causation isn't always the same as correlation. However, studies believe that the rise in mental illness is linked in part to the rise in young people's usage of social media. As you can see in the graph below, we can definitively correlate or claim that social media has an impact on young people's suicide rates.
 
-<img width="926" alt="SocialMediaImpact_generationwise" src="https://user-images.githubusercontent.com/92283185/160523533-f630e71a-a1a1-4f50-a909-cce73b143df8.PNG">
+![image](https://user-images.githubusercontent.com/92283185/160662585-c24e2dca-7347-43f6-9ea8-50faa39f139b.png)
 
- But at the same time we had dataset limitations as we are not able to corelate the below graph of suicide cases with the social media usage as you can see below the suicide rates per 100k population are going up from 1984 but it is steadily going down from 2004 whereas if you can notice the further below image where the social media usage is rapidly increasing from 2004. 
+ However, due to dataset limitations, we were unable to correlate the below graph of suicide cases with social media usage. As you can see below, suicide rates per 100k population have been steadily declining since 1984, but have been steadily increasing since 2004, whereas social media usage has been rapidly increasing since 2004. This is due to the fact that our suicide rate dataset spans the years 1984 to 2015, whereas our social media usage dataset spans the years 2005 to 2021.
+![image](https://user-images.githubusercontent.com/92283185/160662260-4beb8a34-a520-4024-82c4-560bc17b058c.png)
+![image](https://user-images.githubusercontent.com/92283185/160662996-dee5b3ab-aafe-44a5-b8c1-cc34fbf17553.png)
 
- ![image](https://user-images.githubusercontent.com/92283185/160520952-748ad14e-1059-49f4-a9b1-25d3de93b0d5.png)
+When we combine the suicide and usage datasets, we get a slightly different picture of where we can't completely rule out the impact of social media on suicide instances. To add to it, the recession began in 2008, and as shown in the graph below, the increase in suicide rates from 2008 to 2010 is yet another factor.
 
-![image](https://user-images.githubusercontent.com/92283185/160521914-c2527a5a-b4bf-457a-9b5f-71e5f5181a50.png)
+![image](https://user-images.githubusercontent.com/92283185/160663247-bb96c4ea-e4e4-4a92-bd79-3fae13152dc9.png)
 
- And if we see the merged dataset from both suicide and usage we can see a bit different picture to understand where we cannot completly deny on having social media impact on suicide cases:
-
-<img width="933" alt="SocialMediaImpact_overtheyears" src="https://user-images.githubusercontent.com/92283185/160524297-0ff10ba5-f8d7-45a2-af67-f4d8f835bdc1.PNG">
-
- So our final takeaway is that **Social Media is one of the factor of Suicide rates** going up and there can be many other factors to be considered for e.g. Climate, Economy, Cultural issues.
+So, to summarize, **Social Media is not the ONLY factor contributing to rising suicide rates**, and there are many other aspects to consider, such as the economy, climate, cultural concerns, and so on.
 
 ![image](https://user-images.githubusercontent.com/92283185/160528159-f348061f-3a83-468d-979a-af9ec48a655d.png)
 ![image](https://user-images.githubusercontent.com/92283185/160528209-35c3b9dc-e329-496f-ae27-d332f3c312c1.png)
