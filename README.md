@@ -226,11 +226,14 @@ Yes you heard it right, Social Media is just an **impact** and not the only caus
 
 ![image](https://user-images.githubusercontent.com/92283185/160521914-c2527a5a-b4bf-457a-9b5f-71e5f5181a50.png)
 
-- And if we see the merged dataset from both suicide and usage we can see a bit different picture to understand where we cannot completly deny on having social media impact on suicide cases:
+ And if we see the merged dataset from both suicide and usage we can see a bit different picture to understand where we cannot completly deny on having social media impact on suicide cases:
 
 <img width="933" alt="SocialMediaImpact_overtheyears" src="https://user-images.githubusercontent.com/92283185/160524297-0ff10ba5-f8d7-45a2-af67-f4d8f835bdc1.PNG">
 
-- So our final takeaway is that Social Media is one of the factor of Suicide rates going up and there can be many other factors to be considered for e.g. Climate, Economy, Cultural issues.
+ So our final takeaway is that **Social Media is one of the factor of Suicide rates** going up and there can be many other factors to be considered for e.g. Climate, Economy, Cultural issues.
+
+![image](https://user-images.githubusercontent.com/92283185/160528159-f348061f-3a83-468d-979a-af9ec48a655d.png)
+![image](https://user-images.githubusercontent.com/92283185/160528209-35c3b9dc-e329-496f-ae27-d332f3c312c1.png)
 
 
 
