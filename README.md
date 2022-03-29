@@ -19,8 +19,6 @@
 ### Selected topic
 An examination of suicides across several decades, countries and generations that also looks at the correlation between social media use and suicide rates in the U.S. in more recent years among younger generations.
 
-https://public.tableau.com/views/social_media_impact_live/Top10CountriesSuicideNumbers?:language=en-US&:display_count=n&:origin=viz_share_link
-
 ### Reason why we selected our topic
 Social media's growing influence has completely altered the way young generations are growing up, resulting in online connections, experiences and exchanges no previous generations had access to. But a growing number of studies also link frequent social media use to a loss of sleep, depression, anxiety, low self-esteem and a feeling of loneliness.
 
