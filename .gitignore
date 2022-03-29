@@ -1,6 +1,5 @@
 # files to ignore
 config.py
-.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -11,6 +10,8 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.DS_Store
+*.DS_Store
 .Python
 build/
 develop-eggs/

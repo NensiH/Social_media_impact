@@ -1,6 +1,7 @@
 // Add console.log to check to see if our code is working.
 console.log("working");
 
+// Access token is URL-limited and only works on this site
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer(
   "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}",
@@ -8,7 +9,7 @@ let streets = L.tileLayer(
     attribution:
       'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    accessToken: API_KEY,
+    accessToken: "pk.eyJ1IjoidGluYWJlIiwiYSI6ImNsMTludWpydzF5YWMzanAzbWN4MjhvbGsifQ.mXYC2g0hH0Bv16We-_ic9A",
   }
 );
 
@@ -19,7 +20,7 @@ let satelliteStreets = L.tileLayer(
     attribution:
       'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    accessToken: API_KEY,
+    accessToken: "pk.eyJ1IjoidGluYWJlIiwiYSI6ImNsMTludWpydzF5YWMzanAzbWN4MjhvbGsifQ.mXYC2g0hH0Bv16We-_ic9A",
   }
 );
 
@@ -30,7 +31,7 @@ let dark = L.tileLayer(
     attribution:
       'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    accessToken: API_KEY,
+    accessToken: "pk.eyJ1IjoidGluYWJlIiwiYSI6ImNsMTludWpydzF5YWMzanAzbWN4MjhvbGsifQ.mXYC2g0hH0Bv16We-_ic9A",
   }
 );
 
@@ -41,7 +42,7 @@ let light = L.tileLayer(
     attribution:
       'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    accessToken: API_KEY,
+    accessToken: "pk.eyJ1IjoidGluYWJlIiwiYSI6ImNsMTludWpydzF5YWMzanAzbWN4MjhvbGsifQ.mXYC2g0hH0Bv16We-_ic9A",
   }
 );
 
@@ -72,10 +73,10 @@ let silent = new L.LayerGroup();
 // Add a reference to suicides to the overlays object
 let overlays = {
   "Suicides per 100k all generations": allSuicides,
-  "G.I. Generation (b. 1901 - 1927": giGen,
-  "Silent Generation (b. 1928 - 1945": silent,
+  "G.I. Generation (b. 1901 - 1927)": giGen,
+  "Silent Generation (b. 1928 - 1945)": silent,
   "Boomers (b. 1946 - 1964)": boomers,
-  "Gen X (b. 1965 - 1980": genX,
+  "Gen X (b. 1965 - 1980)": genX,
   "Millennials (b. 1981 - 1996)": millenials,
   "Gen Z (b. 1997 - 2012)": genZ
 };
