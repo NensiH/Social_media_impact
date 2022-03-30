@@ -216,11 +216,10 @@ An analysis of our global suicide dataset shows that older people and older gene
 <img width="477" alt="Screen Shot 2022-03-30 at 12 19 00 PM" src="https://user-images.githubusercontent.com/92277581/160906091-e4272b6a-9223-465f-94b5-01698d7adaa5.png">
 
 
-
-
 Furthermore, global suicides among men are significantly higher than among women, a trend that has been consistent over the decades.
 
-<img width="801" alt="Screen Shot 2022-03-30 at 12 35 23 PM" src="https://user-images.githubusercontent.com/92277581/160906214-f5c287d0-2bd3-4fe6-9689-511d88dfc481.png">
+<img width="900" alt="Screen Shot 2022-03-30 at 3 10 10 PM" src="https://user-images.githubusercontent.com/92277581/160922485-8f9c674f-b116-4ea0-9fb6-6bbb7db6d982.png">
+
 
 
 Geographically, we found that suicides in countries of the former Soviet Union are significantly higher than anywhere else in the world of those countries included in our dataset. Several research articles attribute the collapse of the Soviet Union and the drastic socio-eeconomic changes for the increased suicide rate.
