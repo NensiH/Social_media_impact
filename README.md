@@ -190,26 +190,83 @@ The map was created by cleaning our original Kaggle suicide dataset to contain o
 The map clearly illustrates that older generations are the most at-risk group for suicides, with average per-capita suicide numbers significantly higher for the Greatest Generation (those born between 1901 - 1927), and steadily decreasing the younger the generation gets:
 
 <p align="middle">
-  <img src="https://user-images.githubusercontent.com/90064437/160446929-db275a3b-eb96-4f0f-9259-fe3d7febe8fe.png" width="300" />
-  <img src="https://user-images.githubusercontent.com/90064437/160447326-9cf984e0-c0ae-41ff-b465-cc296126a9d9.png" width="300" />
-  <img src="https://user-images.githubusercontent.com/90064437/160447124-9dbb966b-36ef-4618-9184-3cfa944fc1c1.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/90064437/160446929-db275a3b-eb96-4f0f-9259-fe3d7febe8fe.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/90064437/160447326-9cf984e0-c0ae-41ff-b465-cc296126a9d9.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/90064437/160447124-9dbb966b-36ef-4618-9184-3cfa944fc1c1.png" width="400" />
 </p>
 
 <p align="middle">
-  <img src="https://user-images.githubusercontent.com/90064437/160448028-27a04311-4f83-4ed2-958e-f91d6f10cde1.png" width="300" />
-  <img src="https://user-images.githubusercontent.com/90064437/160448453-10ede7ab-034b-43f5-a4b9-0cc408e7fb56.png" width="300" />
-  <img src="https://user-images.githubusercontent.com/90064437/160448581-c6dfb45b-81c5-4ab8-9e40-57c3533d2c8b.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/90064437/160448028-27a04311-4f83-4ed2-958e-f91d6f10cde1.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/90064437/160448453-10ede7ab-034b-43f5-a4b9-0cc408e7fb56.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/90064437/160448581-c6dfb45b-81c5-4ab8-9e40-57c3533d2c8b.png" width="400" />
 </p>
 
 
-To download and use the map, <b>you have to insert your own Mapbox API key</b>, or access token into the logic.js file. Mapbox provides 200,000 tile requests free of charge when you create a default public token with an account on the [Mapbox website](https://www.mapbox.com/). 
+To download and use the map on your own site, <b>you have to insert your own Mapbox API key</b>, or access token into the logic.js file. The current access token only works with one URL and cannot be used elsewhere. Mapbox provides 200,000 tile requests free of charge when you create a default public token with an account on the [Mapbox website](https://www.mapbox.com/). 
 
 ## Findings
+An analysis of our global suicide dataset shows that older people and older generations are at heightened risk for suicide. The average number of suicides on a 100k population basis significantly increases with age. Among those older than 75, th suicide rate is more than twice as high as among the group of 15 to 24-year-olds. 
 
+**GRAPHIC HERE**
+
+
+Furthermore, global suicides among men are significantly higher than among women, a trend that has been consistent over the decades.
+
+**GRAPHIC HERE**
+
+Geographically, we found that suicides in countries of the former Soviet Union are significantly higher than anywhere else in the world of those countries included in our dataset. Several research articles attribute the collapse of the Soviet Union and the drastic socio-eeconomic changes for the increased suicide rate.
+
+**GRAPHIC HERE PERHAPS ON TOP 100K SUICIDE COUNTRIES?**
+
+When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a connection based on the limited data we have (more details in our limitations section). While we were able to graphically show an increase in U.S. social media use and suicides among younger U.S. generations, the data is not conclusive on whether there is a connection between the two. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media use is very low.
+
+**GRAPHIC HERE**
+
+Furthermore, suicide rates per 100k population have been steadily increasing since 1984, but have decreased since 2004, whereas social media usage has rapidly increased since 2004, suggested a reverse correlation.
+
+**GRAPHIC HERE**
+
+When overlaying U.S. social media usage with U.S. per-capita suicide rates we cannot find a correlation between the two factors. Suicide rates appear to rather be impacted by larger economic changes, such as the 2008 financial crisis, but based on our limited data we are not able to draw those conclusions.
+
+**GRAPHIC HERE**
 
 ## Hypothesis testing
 At the outset of our project, our null hypothesis was that there is no relationship between social media use and suicide rates, while our alternative hypothesis was that there is a relationship between suicides and social media use.
 
 Our analysis has shown that we cannot identify a correlation between the two datapoints as suicide is a complex socio-economic phenomenon with varied causes and influences. Social media use alone does not impact suicide rates, according to the datasets we analyzed. We therefore fail to reject our null hypothesis and find that there is no relationship between social media use and suicides.
 
-## Limitations
+## Limitations:
+
+The following are some of the restrictions we encountered while working on this project: **The Impact of Social Media on Suicide Rates**:
+
+Yes, you read that correctly: social media is only a **cause**, not the sole one. Of course, causation isn't always the same as correlation. However, studies believe that the rise in mental illness is linked in part to the rise in young people's usage of social media. As you can see in the graph below, we can definitively correlate or claim that social media has an impact on young people's suicide rates.
+
+![image](https://user-images.githubusercontent.com/92283185/160662585-c24e2dca-7347-43f6-9ea8-50faa39f139b.png)
+
+ However, due to dataset limitations, we were unable to correlate the below graph of suicide cases with social media usage. As you can see below, suicide rates per 100k population have been steadily declining since 1984, but have been steadily increasing since 2004, whereas social media usage has been rapidly increasing since 2004. This is due to the fact that our suicide rate dataset spans the years 1984 to 2015, whereas our social media usage dataset spans the years 2005 to 2021.
+![image](https://user-images.githubusercontent.com/92283185/160662260-4beb8a34-a520-4024-82c4-560bc17b058c.png)
+![image](https://user-images.githubusercontent.com/92283185/160662996-dee5b3ab-aafe-44a5-b8c1-cc34fbf17553.png)
+
+When we combine the suicide and usage datasets, we get a slightly different picture of where we can't completely rule out the impact of social media on suicide instances. To add to it, the recession began in 2008, and as shown in the graph below, the increase in suicide rates from 2008 to 2010 is yet another factor.
+
+![image](https://user-images.githubusercontent.com/92283185/160663247-bb96c4ea-e4e4-4a92-bd79-3fae13152dc9.png)
+
+So, to summarize, **Social Media is not the ONLY factor contributing to rising suicide rates**, and there are many other aspects to consider, such as the economy, climate, cultural concerns, and so on.
+
+![image](https://user-images.githubusercontent.com/92283185/160528159-f348061f-3a83-468d-979a-af9ec48a655d.png)
+![image](https://user-images.githubusercontent.com/92283185/160528209-35c3b9dc-e329-496f-ae27-d332f3c312c1.png)
+
+
+## Limitations alternative
+We have encountered several restrictions while working on this project. First and foremost, we were limited by available data resources. 
+Suicides are the most extreme and serious form of mental health disorders and for every suicide there are many people who attempt suicide, according to the World Health Organization. Those numerous suicide attempts are not included in our dataset.
+
+Nor were we able to find good datasets that provide more granular details on the mental health status across various populations and generations. [Muliple studies](https://www.researchgate.net/profile/Shabir-Bhat/publication/323018957_Effects_of_Social_Media_on_Mental_Health_A_Review/links/5a7c9e97aca272341aeb7472/Effects-of-Social-Media-on-Mental-Health-A-Review.pdf) have found a strong link between heavy social media use and an increased risk for [depression](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3907111/), [stress](https://www.researchgate.net/publication/343205479_Impact_of_Social_Media_on_Adolescent's_Mental_Health), anxiety, [loneliness](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3820167/), self-harm and even suicidal thoughts.
+
+The longest-running study on the relationship between social media use and suicidality we were able to find is a [ten-year study](https://link.springer.com/article/10.1007/s10964-020-01389-6) published in the Journal for Youth and Adolescence in 2021. The study followed 500 adolescents from 2009 and found that for girls, a high level of social media or television use in early adolescence followed by a marked increase over time was most predictive of suicide risk in emerging adulthood. The use of entertainment apps was risky for girls while reading apps were risky for boys.
+
+[Other researchers](https://journals.sagepub.com/doi/10.1177/2167702618812727) have found that a suggested link between social media use and suicides is in fact caused by underlying depression, which is commonly linked to suicides and during which some patients spend more time alone in social networks. Our limited dataset is not able to consider those complexities.
+
+Moreover, our analysis was limited by the timeframe of available data. Our suicide dataset spans the years 1984 to 2016, ending just as social media use begins to be more prevalent among all age groups. Our Pew Research social media use dataset on the other hand covers the years 2005 through 2021.
+
+In addition to a lack of broader mental health and timeframe data, our data also does not account for detailed economic events, such as the 2008 financial crisis, which caused many Americans to lose their homes and livelihood. Suicides in the U.S. increased in 2008 and the following years, which could be correlated with economic upheaval, but our current data does not allow us to draw such conclusions.
