@@ -124,6 +124,12 @@ The top 3 most important features impacting the random forest regressor model ar
 
 The advantage of using Scikit-learn default feature importance is it provides a fast calculation and is easy to retrieve in one command. However, the disadvantage is it has a tendency to inflate the importance of continuous features or high-cardinality categorical variables (as seen in male and female sex).
 
+### Description how the model addresses the question team is solving
+
+Our original question using the suicide rates data set from Kaggle was “Can the machine learning algorithm accurately predicts suicide rates among the different generations?” 
+
+In our random forest regressor model, we used the “generation” column as one of our input X features to predict our y target “suicides_100k_pop”. We were able to fit, train the dataset where 99.94% of the training data fit the regression model. Then using the same model, we were able to get 99.39% of the testing data to fit the regression model.
+
 ## Database Integration
 
 ### Database stores static data for use during the project
