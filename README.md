@@ -62,11 +62,15 @@ We also want to determine whether an uptick in social media use in recent years 
 ## Machine Learning
 
 ### Description of data preprocessing
-First, we used the .info() function to find data info on each columns non-null count and its data type. We decided to perform machine learning on just United States country and suicide year equal to or greater than 2005. We filtered out the dataframe column “country” == “United States” and “year” >= “2005”.
+Before beginning data preprocessing, we performed exploratory data analysis to analyze the data we are working with. First, we used the .info() function to find data info on each columns non-null count and its data type. 
 
 ![info](https://user-images.githubusercontent.com/92401000/160256439-da604a22-572b-4cff-9fa7-3377ffed63fd.PNG)
 
-Next, we plotted “year” versus “suicides_100k_pop” on a scatter plot to determine any trend. Based on the scatter plot, we saw a linear trend, which is best suited for machine learning regression models.
+Then, we used Pandas describe function to compute the summary statistics of the dataset such as the mean, median, standard deviation, minimum, maximum, percentiles, etc.
+
+![df_describe](https://user-images.githubusercontent.com/92401000/161075808-d1b532c1-e137-4586-90f1-e9f1885df391.png)
+
+We decided to perform machine learning on just United States country and suicide year equal to or greater than 2005. We filtered out the dataframe column “country” == “United States” and “year” >= “2005”. Then, we plotted “year” versus “suicides_100k_pop” on a scatter plot to determine any trend. Based on the scatter plot, we saw a linear trend, which is best suited for machine learning regression models.
 
 ![Fig1](https://user-images.githubusercontent.com/92401000/160256454-3d211bd9-b8da-484d-9547-30f7b7f758a4.png)
 
