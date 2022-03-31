@@ -231,39 +231,19 @@ When it comes to U.S. social media use and its relationship to U.S. suicides, we
 
 ![image](https://user-images.githubusercontent.com/92283185/160902849-63e1853d-11dd-4021-8a13-f8a6e486b7fc.png)
 
-Furthermore, suicide rates per 100k population have been steadily increasing since 1984, but have decreased since 2004, whereas social media usage has rapidly increased since 2004, suggested a reverse correlation.
+Furthermore, suicide rates per 100k population have been steadily increasing since 1984, but have decreased since 2004, whereas social media usage has rapidly increased since 2004, suggested a reverse correlation. The reason for the line graph split in 2007 is that our SocialMedia Usage dataset only covers the years 2005 to 2021, and the year 2007 is absent.
 
+![image](https://user-images.githubusercontent.com/92283185/160966828-7930ea33-cad5-43cd-8570-af5bae879b11.png)
 
 When overlaying U.S. social media usage with U.S. per-capita suicide rates we cannot find a correlation between the two factors. Suicide rates appear to rather be impacted by larger economic changes, such as the 2008 financial crisis, but based on our limited data we are not able to draw those conclusions.
 
-**GRAPHIC HERE**
+![image](https://user-images.githubusercontent.com/92283185/160967368-fc2f918b-78e2-4c68-94b4-cf30d297d42a.png)
+
 
 ## Hypothesis testing
 At the outset of our project, our null hypothesis was that there is no relationship between social media use and suicide rates, while our alternative hypothesis was that there is a relationship between suicides and social media use.
 
 Our analysis has shown that we cannot identify a correlation between the two datapoints as suicide is a complex socio-economic phenomenon with varied causes and influences. Social media use alone does not impact suicide rates, according to the datasets we analyzed. We therefore fail to reject our null hypothesis and find that there is no relationship between social media use and suicides.
-
-## Limitations:
-
-The following are some of the restrictions we encountered while working on this project: **The Impact of Social Media on Suicide Rates**:
-
-Yes, you read that correctly: social media is only a **cause**, not the sole one. Of course, causation isn't always the same as correlation. However, studies believe that the rise in mental illness is linked in part to the rise in young people's usage of social media. As you can see in the graph below, we can definitively correlate or claim that social media has an impact on young people's suicide rates.
-
-![image](https://user-images.githubusercontent.com/92283185/160662585-c24e2dca-7347-43f6-9ea8-50faa39f139b.png)
-
- However, due to dataset limitations, we were unable to correlate the below graph of suicide cases with social media usage. As you can see below, suicide rates per 100k population have been steadily declining since 1984, but have been steadily increasing since 2004, whereas social media usage has been rapidly increasing since 2004. This is due to the fact that our suicide rate dataset spans the years 1984 to 2015, whereas our social media usage dataset spans the years 2005 to 2021.
-![image](https://user-images.githubusercontent.com/92283185/160662260-4beb8a34-a520-4024-82c4-560bc17b058c.png)
-![image](https://user-images.githubusercontent.com/92283185/160662996-dee5b3ab-aafe-44a5-b8c1-cc34fbf17553.png)
-
-When we combine the suicide and usage datasets, we get a slightly different picture of where we can't completely rule out the impact of social media on suicide instances. To add to it, the recession began in 2008, and as shown in the graph below, the increase in suicide rates from 2008 to 2010 is yet another factor.
-
-![image](https://user-images.githubusercontent.com/92283185/160663247-bb96c4ea-e4e4-4a92-bd79-3fae13152dc9.png)
-
-So, to summarize, **Social Media is not the ONLY factor contributing to rising suicide rates**, and there are many other aspects to consider, such as the economy, climate, cultural concerns, and so on.
-
-![image](https://user-images.githubusercontent.com/92283185/160528159-f348061f-3a83-468d-979a-af9ec48a655d.png)
-![image](https://user-images.githubusercontent.com/92283185/160528209-35c3b9dc-e329-496f-ae27-d332f3c312c1.png)
-
 
 ## Limitations alternative
 We have encountered several restrictions while working on this project. First and foremost, we were limited by available data resources. 
