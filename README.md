@@ -235,9 +235,9 @@ When it comes to U.S. social media use and its relationship to U.S. suicides, we
 
 ![image](https://user-images.githubusercontent.com/92283185/160902849-63e1853d-11dd-4021-8a13-f8a6e486b7fc.png)
 
-Furthermore, suicide rates per 100k population have been steadily increasing since 1984, but have decreased since 2004, whereas social media usage has rapidly increased since 2004, suggested a reverse correlation. The reason for the line graph split in 2007 is that our SocialMedia Usage dataset only covers the years 2005 to 2021, and the year 2007 is absent.
+Furthermore, suicide rates per 100k population have been steadily increasing since 1984, but have decreased since 2004, whereas social media usage has rapidly increased since 2004, suggested a reverse correlation. 
 
-![image](https://user-images.githubusercontent.com/92283185/160966828-7930ea33-cad5-43cd-8570-af5bae879b11.png)
+![image](https://user-images.githubusercontent.com/92283185/161177792-8e2a5f62-c707-4d38-aaf6-23aa7cfe61c3.png)
 
 When overlaying U.S. social media usage with U.S. per-capita suicide rates we cannot find a correlation between the two factors. Suicide rates appear to rather be impacted by larger economic changes, such as the 2008 financial crisis, but based on our limited data we are not able to draw those conclusions.
 
