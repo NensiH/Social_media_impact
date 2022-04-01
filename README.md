@@ -217,16 +217,21 @@ To download and use the map on your own site, <b>you have to insert your own Map
 ## Findings
 An analysis of our global suicide dataset shows that older people and older generations are at heightened risk for suicide. The average number of suicides on a 100k population basis significantly increases with age. Among those older than 75, th suicide rate is more than twice as high as among the group of 15 to 24-year-olds. 
 
-<img width="477" alt="Screen Shot 2022-03-30 at 12 19 00 PM" src="https://user-images.githubusercontent.com/92277581/160906091-e4272b6a-9223-465f-94b5-01698d7adaa5.png">
+<img width="936" alt="Screen Shot 2022-04-01 at 2 00 13 PM" src="https://user-images.githubusercontent.com/92277581/161325481-2557e9da-cf4b-475f-9e19-1992126aa852.png">
 
 
 Furthermore, global suicides among men are significantly higher than among women, a trend that has been consistent over the decades.
 
-<img width="639" alt="Screen Shot 2022-04-01 at 1 53 14 PM" src="https://user-images.githubusercontent.com/92277581/161324655-67069f69-794e-4bfe-a087-de855698d240.png">
+<img width="977" alt="Screen Shot 2022-04-01 at 2 04 03 PM" src="https://user-images.githubusercontent.com/92277581/161325878-15db136f-4bd4-4f75-b99b-341471129311.png">
+
+
 
 Geographically, we found that suicides in countries of the former Soviet Union are significantly higher than anywhere else in the world of those countries included in our dataset. Several research articles attribute the collapse of the Soviet Union and the drastic socio-eeconomic changes for the increased suicide rate.
 
-<img width="651" alt="Screen Shot 2022-04-01 at 1 56 16 PM" src="https://user-images.githubusercontent.com/92277581/161324873-1d7c845c-9760-4283-8272-e672755d103a.png">
+<img width="1006" alt="Screen Shot 2022-04-01 at 2 02 38 PM" src="https://user-images.githubusercontent.com/92277581/161325720-8bd76210-ac20-410b-87c6-01a8c5111d7b.png">
+
+
+
 
 
 When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a connection based on the limited data we have (more details in our limitations section). While we were able to graphically show an increase in U.S. social media use and suicides among younger U.S. generations, the data is not conclusive on whether there is a connection between the two. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media use is very low.
