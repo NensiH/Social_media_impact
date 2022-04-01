@@ -222,13 +222,11 @@ An analysis of our global suicide dataset shows that older people and older gene
 
 Furthermore, global suicides among men are significantly higher than among women, a trend that has been consistent over the decades.
 
-<img width="900" alt="Screen Shot 2022-03-30 at 3 10 10 PM" src="https://user-images.githubusercontent.com/92277581/160922485-8f9c674f-b116-4ea0-9fb6-6bbb7db6d982.png">
-
-
+<img width="639" alt="Screen Shot 2022-04-01 at 1 53 14 PM" src="https://user-images.githubusercontent.com/92277581/161324655-67069f69-794e-4bfe-a087-de855698d240.png">
 
 Geographically, we found that suicides in countries of the former Soviet Union are significantly higher than anywhere else in the world of those countries included in our dataset. Several research articles attribute the collapse of the Soviet Union and the drastic socio-eeconomic changes for the increased suicide rate.
 
-<img width="735" alt="Screen Shot 2022-03-30 at 1 23 39 PM" src="https://user-images.githubusercontent.com/92277581/160906541-bada25a8-a092-42d9-86f7-722ba3cdf933.png">
+<img width="651" alt="Screen Shot 2022-04-01 at 1 56 16 PM" src="https://user-images.githubusercontent.com/92277581/161324873-1d7c845c-9760-4283-8272-e672755d103a.png">
 
 
 When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a connection based on the limited data we have (more details in our limitations section). While we were able to graphically show an increase in U.S. social media use and suicides among younger U.S. generations, the data is not conclusive on whether there is a connection between the two. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media use is very low.
