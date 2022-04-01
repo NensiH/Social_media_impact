@@ -1,6 +1,7 @@
 # Social Media Impact Technologies 
 
-<img width="1103" alt="Technologies Mockup" src="https://user-images.githubusercontent.com/37478490/158917380-192e46f0-6b5a-4af1-a7b2-7bffaba6d20d.png">
+<img width="1100" alt="Screen Shot 2022-03-31 at 7 04 27 PM" src="https://user-images.githubusercontent.com/37478490/161171782-05a32a68-e169-4bfc-acc5-c55e0d7f3249.png">
+
 
 ## Data Gathering
 Two data sets will be utilized to determine the relationship between social media engagement and suicide rates in the US 
