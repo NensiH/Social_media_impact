@@ -1,8 +1,8 @@
-# Social_media_impact
+# Suicide Rates and Social Media Impact
 
 ![gettyimages-459883190-dcb1497c2baca73b4be735ecd2e139152cd1ef32-s1100-c50](https://user-images.githubusercontent.com/92277581/157372626-6bcbadbe-17f1-42c0-b21b-66f77e1b168e.jpeg)
 
-## Team:
+## Team
 
 [Quang Nguyen](https://github.com/utpetroleum)
 
@@ -13,6 +13,8 @@
 [Tina Bellon](https://github.com/TinaBeee)
 
 [Ima Richburg](https://github.com/imarichburg)
+
+## Topic
 
 ### Selected topic
 An examination of suicides across several decades, countries and generations that also looks at the correlation between social media use and suicide rates in the U.S. in more recent years among younger generations.
@@ -28,9 +30,6 @@ Suicide is a serious societal problem and the result of complex socioeconomic an
 We are using a suicide data set from Kaggle, which lists suicides from around the world by country from 1985 until 2015. The data is split by gender, age and generation, and also lists the respective country's Human Development Index and GDP in a particular year.
 
 For social media usage, we rely on a Pew Research dataset that collected the share of U.S. adults using different forms of social media from 2005 through 2021. The data is broken down by age groups.
-
-### Data Integration:
-The Team have reviewed all the datasets listed previously, selected the main and the supporting datasets, and worked on cleaning and analyzing them. The main dataset was preprocessed and analyzed in order to test a ML model and to select the most appropriate one. We have used Python and Jupyter notebook to transform structured and unstructured data as well as data cleaning and deliver it to SQL for necessary joins and divide data into meaningful CSVs. We have then used these datasets for Tableau visualization.
 
 ### Questions we hope to answer with the data
 We want to analyze how suicide rates changed over the decades and across different generations to determine specific patterns and identify high-risk groups for suicide. We plan to use two types of regression analyses to determine if our algorithm can accurately predict suicide rates among the different generations we identify.
@@ -63,11 +62,15 @@ We also want to determine whether an uptick in social media use in recent years 
 ## Machine Learning
 
 ### Description of data preprocessing
-First, we used the .info() function to find data info on each columns non-null count and its data type. We decided to perform machine learning on just United States country and suicide year equal to or greater than 2005. We filtered out the dataframe column “country” == “United States” and “year” >= “2005”.
+Before beginning data preprocessing, we performed exploratory data analysis to analyze the data we are working with. First, we used the .info() function to find data info on each columns non-null count and its data type. 
 
 ![info](https://user-images.githubusercontent.com/92401000/160256439-da604a22-572b-4cff-9fa7-3377ffed63fd.PNG)
 
-Next, we plotted “year” versus “suicides_100k_pop” on a scatter plot to determine any trend. Based on the scatter plot, we saw a linear trend, which is best suited for machine learning regression models.
+Then, we used Pandas describe function to compute the summary statistics of the dataset such as the mean, median, standard deviation, minimum, maximum, percentiles, etc.
+
+![df_describe](https://user-images.githubusercontent.com/92401000/161075808-d1b532c1-e137-4586-90f1-e9f1885df391.png)
+
+We decided to perform machine learning on just United States country and suicide year equal to or greater than 2005. We filtered out the dataframe column “country” == “United States” and “year” >= “2005”. Then, we plotted “year” versus “suicides_100k_pop” on a scatter plot to determine any trend. Based on the scatter plot, we saw a linear trend, which is best suited for machine learning regression models.
 
 ![Fig1](https://user-images.githubusercontent.com/92401000/160256454-3d211bd9-b8da-484d-9547-30f7b7f758a4.png)
 
@@ -125,6 +128,137 @@ The top 3 most important features impacting the random forest regressor model ar
 
 The advantage of using Scikit-learn default feature importance is it provides a fast calculation and is easy to retrieve in one command. However, the disadvantage is it has a tendency to inflate the importance of continuous features or high-cardinality categorical variables (as seen in male and female sex).
 
+### Description how the model addresses the question team is solving
+
+Our original question using the suicide rates data set from Kaggle was “Can the machine learning algorithm accurately predicts suicide rates among the different generations?” 
+
+In our random forest regressor model, we used the “generation” column as one of our input X features to predict our y target “suicides_100k_pop”. We were able to fit, train the dataset where 99.94% of the training data fit the regression model. Then using the same model, we were able to get 99.39% of the testing data to fit the regression model.
+
+## Database Integration
+
+### Database stores static data for use during the project
+Before storing socialmedia_mentalhealth.csv and socialmedia_usage_agewise.csv files into Postgres, both files were cleaned using jupyter notebook. 
+In socialmedia_mentalhealth.csv, we renamed the column “suicide_year” to “year” so it can be merged with socialmedia_usage_agewise.csv within jupyter notebook. We removed rows where year = 2016 due to incomplete data and reset the index. Then we exported the cleaned dataframe as a new csv file and import dataframe into Postgres “social_media_impact” database as “mentalhealth” table using SQLAlchemy.
+
+![mentalhealth_df](https://user-images.githubusercontent.com/92401000/160475009-e81194ea-d2df-4460-af01-4fa1985d3aea.png)
+
+In socialmedia_usage_agewise.csv, we extracted the “year” from “usagedate” column and set it as a new column, then dropped the “usagedate” column. We created a new column “25-34 years age range” by taking the weighted average of “age_18_29_per” and “age_30_49_per” columns, then we renamed the other columns to match socialmedia_mentalhealth.csv age range. We used the “.melt” function to transpose the columns to rows. Then we use the median age of each age_range column to calculate the year born. Based on the year born, we used “.loc” function and conditionals to determine each age_range’s generation and added as a new column. Then we exported the cleaned dataframe as a new csv file and import dataframe into Postgres “social_media_impact” database as “usage” table using SQLAlchemy.
+
+![usage_df](https://user-images.githubusercontent.com/92401000/160475045-85119037-045b-4d98-bc49-3e98d0e3bd61.png)
+
+We decided to merge both these cleaned datasets by importing the csv files into jupyter notebook. Because we wanted to compared the suicide rates versus social media usage within the USA, we filtered the cleaned socialmedia_mentalhealth to “country” = “United States” and “year” >= “2005”. Once the socialmedia_mentalhealth was filtered, we merged it with the cleaned socialmedia_usage_agewise using an “inner join” on the “year” and “generation” columns. Then we exported the merged dataframe as a new csv file and import dataframe into Postgres “social_media_impact” database as “merged” table using SQLAlchemy. 
+
+![merged_df](https://user-images.githubusercontent.com/92401000/160475082-87361fac-8a0f-4b24-8be3-1e1827a85132.png)
+
+Note: We like to note that because we merged both datasets on non-unique columns, the merged dataframe contained a few duplicated rows.
+### Database interfaces with the project in some format (e.g., scraping updates the database)
+For data visualization, we decided to use Tableau a one of our BI tool. We made a live connection to PostgreSQL database to import our mentalhealth, usage, and join_usa tables. 
+
+![tableau_integration](https://user-images.githubusercontent.com/92401000/160475319-e66e8746-f137-409a-9110-54546729fca7.PNG)
+
+### Includes at least two tables (or collections, if using MongoDB)
+After cleaning both our socialmedia_mentalhealth.csv and socialmedia_usage_agewise.csv, we imported the cleaned dataframes into social_media_impact database as "mentalhealth" and "usage" tables in Postgres using SQLAlchemy. 
+### Includes at least one join using the database language (not including any joins in Pandas)
+#### mentalhealth and usage tables ERD
+
+![social_media_impact ERD](https://user-images.githubusercontent.com/92401000/160477657-c6aea87b-7131-49ed-8414-f3379a27e8e8.PNG)
+
+In pgAdmin 4, we created two separate tables using two separate joins. First, we opened a query tool for social_media_impact database, performed an inner join on mentalhealth and usage tables on “year” and “generation”, output it as “join_allcountry” table. 
+
+![join_allcountry_query](https://user-images.githubusercontent.com/92401000/160475962-a590a461-2592-4f5b-81a2-7de220557530.PNG)
+
+For our second join, we performed an inner join on mentalhealth and usage tables on “year” and “generation” where “country” = “United States” and output it as “join_usa” table.
+
+![join_usa_query](https://user-images.githubusercontent.com/92401000/160476042-6c82bd76-c516-4ea9-9e31-fc97b09c3be5.PNG)
+
+### Includes at least one connection string (using SQLAlchemy or PyMongo)
+In this project, we used SQLAlchemy connection string twice. After data cleaning for socialmedia_mentalhealth.csv and socialmedia_usage_agewise.csv, we imported the cleaned dataframes into social_media_impact database in Postgres using SQLAlchemy.
+#### mentalhealth
+
+![mentalhealth_connection_code](https://user-images.githubusercontent.com/92401000/160476909-9b6cfe29-f132-4e10-bd88-0eee834ff1d3.PNG)
+
+#### usage
+
+![usage_connection_code](https://user-images.githubusercontent.com/92401000/160476932-5ce32c4e-c8eb-4322-a567-99acd76ee9ef.PNG)
+
+In our machine learning analysis, we connected to social_media_impact database using SQLAlchemy. We reflected the database into a new model and referenced the mentalhealth table as a class. We created our session (link) from python to the database, performed a query to retrieve all the necessary data, saved the query results as a dataframe and performed machine learning analysis on the dataframe. 
+
+![ml_connection_code](https://user-images.githubusercontent.com/92401000/160477280-d17e89f6-c8f6-4811-83a3-d17df944fef9.PNG)
+
 ## Visualization/Dashboard: 
 
-- We used Tableau as a part of our dashboard. Our Tableau analysis can be found here [Tableau Dashboard](https://public.tableau.com/app/profile/nensi7308/viz/SocialmediausageandSuiciderates/Dashboard1).
+- We used Tableau as a part of our dashboard. Our Tableau analysis can be found here [Tableau Dashboard](https://public.tableau.com/app/profile/nensi7308/viz/SocialmediausageSuiciderate/Dashboard1).
+
+- We use Mapbox and Leaflet to create an interactive global map of the suicide data. All the files used to create the map can be found in this repo's [Map_Viz](https://github.com/NensiH/Social_media_impact/tree/main/Map_Viz) folder:
+
+    <img width="1000" alt="Screen Shot 2022-03-27 at 13 35 28" src="https://user-images.githubusercontent.com/90064437/160295629-2ca18ac9-fa8b-46d8-92e5-42682102360e.png">
+
+The map provides two toggle functions: one for the tile layer (i.e. the style of the map) and one to toggle between the different generations. The data displays average country-level suicides on a per capita basis of 100,000 over the entire duration of the dataset (1985 - 2016). The map displays (bubbles) are located on each country's capital and both the radius and color of the bubbles represents the scale of per-capita suicides.
+
+The map was created by cleaning our original Kaggle suicide dataset to contain only average suicides/100k per country and average suidies/100k per country per generation. The results were then added to a geoJSON file that lists the world capitals with geographical point data (the geoJSON file has been uploaded to a [Github page](https://tinabeee.github.io/Data/capitals2.geojson) to make API requests to it). The data is then requsted using d3.json and radius and color styled based on number of suicides. The bubbles are added together with a popup marker that displays the country name and number of suicides when clicked on.
+
+The map clearly illustrates that older generations are the most at-risk group for suicides, with average per-capita suicide numbers significantly higher for the Greatest Generation (those born between 1901 - 1927), and steadily decreasing the younger the generation gets:
+
+<p align="middle">
+  <img src="https://user-images.githubusercontent.com/90064437/160446929-db275a3b-eb96-4f0f-9259-fe3d7febe8fe.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/90064437/160447326-9cf984e0-c0ae-41ff-b465-cc296126a9d9.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/90064437/160447124-9dbb966b-36ef-4618-9184-3cfa944fc1c1.png" width="400" />
+</p>
+
+<p align="middle">
+  <img src="https://user-images.githubusercontent.com/90064437/160448028-27a04311-4f83-4ed2-958e-f91d6f10cde1.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/90064437/160448453-10ede7ab-034b-43f5-a4b9-0cc408e7fb56.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/90064437/160448581-c6dfb45b-81c5-4ab8-9e40-57c3533d2c8b.png" width="400" />
+</p>
+
+
+To download and use the map on your own site, <b>you have to insert your own Mapbox API key</b>, or access token into the logic.js file. The current access token only works with one URL and cannot be used elsewhere. Mapbox provides 200,000 tile requests free of charge when you create a default public token with an account on the [Mapbox website](https://www.mapbox.com/). 
+
+## Findings
+An analysis of our global suicide dataset shows that older people and older generations are at heightened risk for suicide. The average number of suicides on a 100k population basis significantly increases with age. Among those older than 75, th suicide rate is more than twice as high as among the group of 15 to 24-year-olds. 
+
+<img width="477" alt="Screen Shot 2022-03-30 at 12 19 00 PM" src="https://user-images.githubusercontent.com/92277581/160906091-e4272b6a-9223-465f-94b5-01698d7adaa5.png">
+
+
+Furthermore, global suicides among men are significantly higher than among women, a trend that has been consistent over the decades.
+
+<img width="900" alt="Screen Shot 2022-03-30 at 3 10 10 PM" src="https://user-images.githubusercontent.com/92277581/160922485-8f9c674f-b116-4ea0-9fb6-6bbb7db6d982.png">
+
+
+
+Geographically, we found that suicides in countries of the former Soviet Union are significantly higher than anywhere else in the world of those countries included in our dataset. Several research articles attribute the collapse of the Soviet Union and the drastic socio-eeconomic changes for the increased suicide rate.
+
+<img width="735" alt="Screen Shot 2022-03-30 at 1 23 39 PM" src="https://user-images.githubusercontent.com/92277581/160906541-bada25a8-a092-42d9-86f7-722ba3cdf933.png">
+
+
+When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a connection based on the limited data we have (more details in our limitations section). While we were able to graphically show an increase in U.S. social media use and suicides among younger U.S. generations, the data is not conclusive on whether there is a connection between the two. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media use is very low.
+
+![image](https://user-images.githubusercontent.com/92283185/160902849-63e1853d-11dd-4021-8a13-f8a6e486b7fc.png)
+
+Furthermore, suicide rates per 100k population have been steadily increasing since 1984, but have decreased since 2004, whereas social media usage has rapidly increased since 2004, suggested a reverse correlation. The reason for the line graph split in 2007 is that our SocialMedia Usage dataset only covers the years 2005 to 2021, and the year 2007 is absent.
+
+![image](https://user-images.githubusercontent.com/92283185/160966828-7930ea33-cad5-43cd-8570-af5bae879b11.png)
+
+When overlaying U.S. social media usage with U.S. per-capita suicide rates we cannot find a correlation between the two factors. Suicide rates appear to rather be impacted by larger economic changes, such as the 2008 financial crisis, but based on our limited data we are not able to draw those conclusions.
+
+![image](https://user-images.githubusercontent.com/92283185/160967368-fc2f918b-78e2-4c68-94b4-cf30d297d42a.png)
+
+
+## Hypothesis testing
+At the outset of our project, our null hypothesis was that there is no relationship between social media use and suicide rates, while our alternative hypothesis was that there is a relationship between suicides and social media use.
+
+Our analysis has shown that we cannot identify a correlation between the two datapoints as suicide is a complex socio-economic phenomenon with varied causes and influences. Social media use alone does not impact suicide rates, according to the datasets we analyzed. We therefore fail to reject our null hypothesis and find that there is no relationship between social media use and suicides.
+
+## Limitations alternative
+We have encountered several restrictions while working on this project. First and foremost, we were limited by available data resources. 
+Suicides are the most extreme and serious form of mental health disorders and for every suicide there are many people who attempt suicide, according to the World Health Organization. Those numerous suicide attempts are not included in our dataset.
+
+Nor were we able to find good datasets that provide more granular details on the mental health status across various populations and generations. [Muliple studies](https://www.researchgate.net/profile/Shabir-Bhat/publication/323018957_Effects_of_Social_Media_on_Mental_Health_A_Review/links/5a7c9e97aca272341aeb7472/Effects-of-Social-Media-on-Mental-Health-A-Review.pdf) have found a strong link between heavy social media use and an increased risk for [depression](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3907111/), [stress](https://www.researchgate.net/publication/343205479_Impact_of_Social_Media_on_Adolescent's_Mental_Health), anxiety, [loneliness](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3820167/), self-harm and even suicidal thoughts.
+
+The longest-running study on the relationship between social media use and suicidality we were able to find is a [ten-year study](https://link.springer.com/article/10.1007/s10964-020-01389-6) published in the Journal for Youth and Adolescence in 2021. The study followed 500 adolescents from 2009 and found that for girls, a high level of social media or television use in early adolescence followed by a marked increase over time was most predictive of suicide risk in emerging adulthood. The use of entertainment apps was risky for girls while reading apps were risky for boys.
+
+[Other researchers](https://journals.sagepub.com/doi/10.1177/2167702618812727) have found that a suggested link between social media use and suicides is in fact caused by underlying depression, which is commonly linked to suicides and during which some patients spend more time alone in social networks. Our limited dataset is not able to consider those complexities.
+
+Moreover, our analysis was limited by the timeframe of available data. Our suicide dataset spans the years 1984 to 2016, ending just as social media use begins to be more prevalent among all age groups. Our Pew Research social media use dataset on the other hand covers the years 2005 through 2021.
+
+In addition to a lack of broader mental health and timeframe data, our data also does not account for detailed economic events, such as the 2008 financial crisis, which caused many Americans to lose their homes and livelihood. Suicides in the U.S. increased in 2008 and the following years, which could be correlated with economic upheaval, but our current data does not allow us to draw such conclusions.
