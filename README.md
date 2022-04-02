@@ -191,7 +191,7 @@ In our machine learning analysis, we connected to social_media_impact database u
 
 ## Visualization/Dashboard: 
 
-- We used Tableau as a part of our dashboard. Our Tableau analysis can be found here [Tableau Dashboard](https://public.tableau.com/app/profile/nensi7308/viz/SocialmediausageSuiciderate/Dashboard1).
+- We used Tableau as a part of our dashboard. Our Tableau analysis can be found here [Tableau Dashboard](https://public.tableau.com/app/profile/nensi7308/viz/SocialmediausageSuiciderate/Story?publish=yes).
 
 - We use Mapbox and Leaflet to create an [interactive global map](https://tinabeee.github.io/Global_Suicide_Map/) of the suicide data. All the files used to create the map can be found in this repo's [Map_Viz](https://github.com/NensiH/Social_media_impact/tree/main/Map_Viz) folder:
 
