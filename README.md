@@ -246,7 +246,9 @@ Interestingly enough, the share of male versus female suicides differs starkly b
 <br><br>
 Geographically, we found that suicides in countries of the former Soviet Union are significantly higher than anywhere else in the world of those countries included in our dataset. Several research articles attribute the collapse of the Soviet Union and the drastic socio-eeconomic changes for the increased suicide rate.
 
-***NEW TABLEAU MAP GRAPHIC HERE AS SUGGESTED BY QUANG***
+<img width="885" alt="Screen Shot 2022-04-02 at 7 25 26 AM" src="https://user-images.githubusercontent.com/92277581/161385011-46874d03-0b2e-47ab-993e-cd7f8668e55f.png">
+
+
 
 <br><br>
 When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a relationship based on the limited data we have (more details in our limitations section). In fact, the our analysis and graphics suggest there is an inverse relationship: as social media use goes up among the younger generations, suicide rates go down. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media consumption is very low.
