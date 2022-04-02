@@ -245,15 +245,13 @@ Geographically, we found that suicides in countries of the former Soviet Union a
 
 When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a relationship based on the limited data we have (more details in our limitations section). In fact, the our analysis and graphics suggest there is an inverse relationship: as social media use goes up among the younger generations, suicide rates go down. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media consumption is very low.
 
-![image](https://user-images.githubusercontent.com/92283185/160902849-63e1853d-11dd-4021-8a13-f8a6e486b7fc.png)
+<img width="658" alt="social_media_gen" src="https://user-images.githubusercontent.com/90064437/161364409-7fbd0c53-1fc8-4abb-a605-811ab4c8023f.png">
 
-Furthermore, suicide rates per 100k population have been steadily increasing since 1984, but have decreased since 2004, whereas social media usage has rapidly increased since 2004, suggested a reverse correlation. 
 
-![image](https://user-images.githubusercontent.com/92283185/161177792-8e2a5f62-c707-4d38-aaf6-23aa7cfe61c3.png)
+When overlaying total average U.S. social media usage with total U.S. per-capita suicide rates on a yearly basis, we also cannot find a correlation between the two factors. 
 
-When overlaying U.S. social media usage with U.S. per-capita suicide rates we cannot find a correlation between the two factors. Suicide rates appear to rather be impacted by larger economic changes, such as the 2008 financial crisis, but based on our limited data we are not able to draw those conclusions.
+<img width="731" alt="social_media_yr" src="https://user-images.githubusercontent.com/90064437/161364486-b09f1060-2a98-4c99-905e-99c1202fbecd.png">
 
-![image](https://user-images.githubusercontent.com/92283185/160967368-fc2f918b-78e2-4c68-94b4-cf30d297d42a.png)
 
 
 ## Hypothesis testing
