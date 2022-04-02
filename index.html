@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>Suicide Rates & Social Media</title>
+<!--
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
+
+Zoom Slider
+https://vegas.jaysalvat.com/
+
+Caption Hover Effects
+http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
+-->
+	<link rel="stylesheet" href="website_content/css/bootstrap.min.css">
+	<link rel="stylesheet" href="website_content/css/animate.min.css">
+	<link rel="stylesheet" href="website_content/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="website_content/css/component.css">
+	
+    <link rel="stylesheet" href="website_content/css/owl.theme.css">
+	<link rel="stylesheet" href="website_content/css/owl.carousel.css">
+	<link rel="stylesheet" href="website_content/css/vegas.min.css">
+	<link rel="stylesheet" href="website_content/css/style.css">
+
+	<!-- Google web font  -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+
+<!-- Preloader section -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
+</div>
+
+
+<!-- Navigation section  -->
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#top" class="navbar-brand smoothScroll">Suicides & Social Media</a>
+      </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" class="smoothScroll"><span>Intro</span></a></li>
+            <li><a href="#about" class="smoothScroll"><span>About</span></a></li>
+            <li><a href="#gallery" class="smoothScroll"><span>Visualizations</span></a></li>
+            <li><a href="#findings" class="smoothScroll"><span>Findings</span></a></li>
+            <li><a href="#contact" class="smoothScroll"><span>Helpline</span></a></li>
+          </ul>
+       </div>
+
+    </div>
+  </div>
+
+
+<!-- Home section -->
+
+<section id="home">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <h1 class="wow fadeInUp" data-wow-delay="0.6s">Suicide Rates & Social Media Impact</h1>
+        <p class="wow fadeInUp" data-wow-delay="0.9s">An examination of suicides across several decades, countries and generations that also looks at the correlation between social media use and suicide rates in the U.S. in more recent years among younger generations. Researchers continue to study a potential causal link between social media use and mental health diseases, including suicides and suicidal tendences. A growing <a href="https://www.researchgate.net/publication/323018957_Effects_of_Social_Media_on_Mental_Health_A_Review" target="_blank">number of studies</a> link frequent social media use to a loss of sleep, depression, anxiety, low self-esteem and a feeling of loneliness. <br><br>Suicide is a serious societal problem and the result of complex socioeconomic and cultural factors. Even if our analysis should show that social media use only has minimal impact, we believe any measure to decrease risk and increase suicide prevention is worth pursuing.<br><br>Our project is split in two parts: a thorough analysis of a public <a href="https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016" target="_blank">Kaggle dataset</a> of suicides between 1985 and 2015, and the overlay of a U.S. social media use dataset by <a href="https://www.pewresearch.org/internet/fact-sheet/social-media/" target="_blank">Pew Research</a> with data from 2005 through 2015.<br><br> Our Github repository includes additional details on our data cleaning and analysis process, as well as our two multivariate regression models for Machine Learning</p>
+        <a href="https://github.com/NensiH/Social_media_impact" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-wow-delay="1.2s">Visit our Github Repo</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- About section -->
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h1>Analysis Goals</h1>
+          <p>We want to analyze how suicide rates changed over the decades and across different generations to determine specific patterns and identify high-risk groups for suicide. We plan to use two types of regression analyses to determine if our algorithm can accurately predict suicide rates among the different generations we identify.<br><br>We also want to determine whether an uptick in social media use in recent years overlaps with an increase in suicide rates, particularly among younger cohorts who use social media in the greatest numbers. To determine correlation, we plan to visualize U.S. suicide rates and social media use over time.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+        <img src="website_content/images/sm_header.jpg" class="img-responsive img-circle" alt="About">
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title text-center">
+          <h1>Data Analysis Team</h1>
+          <h3>Team of the UT Austin Data Analysis and Visualization course that worked on this project:</h3>
+        </div>
+      </div>
+
+      <!-- team carousel -->
+      <div id="team-carousel" class="owl-carousel">
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="website_content/images/quang_pic.jpg" class="img-responsive img-circle" alt="Mary">
+          </div>
+          <h2 class="heading">Quang Nguyen</h2>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="website_content/images/tina_pic.jpg" class="img-responsive img-circle" alt="Jack">
+          </div>
+          <h2 class="heading">Tina Bellon</h2>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="website_content/images/namrata_pic.jpg" class="img-responsive img-circle" alt="Linda">
+          </div>
+          <h2 class="heading">Namrata Shah</h2>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="website_content/images/nensi_pic.jpg" class="img-responsive img-circle" alt="Sandy">
+          </div>
+          <h2 class="heading">Nensi Dobaria</h2>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="website_content/images/ima_pic.jpg" class="img-responsive img-circle" alt="Lukia">
+          </div>
+          <h2 class="heading">Ima Richburg</h2>
+        </div>
+      </div>
+
+      </div>
+      <!-- end team carousel -->
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Gallery section -->
+
+<section id="gallery">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title">
+          <h1>Visualizations</h1>
+          <p>A visual exploration of our datasets. Individual images are accompanied by text and link to interactive features, such maps and Tableau graphics.</p>
+        </div>
+      </div>
+
+      <ul class="grid cs-style-4">
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="website_content/images/map_screenshot_long.png" alt="image 1"></div>
+            <figcaption>
+              <h1>Suicide Map</h1>
+              <small>An interactive map of global per-capita suicides that lets users toggle between generations to explore differences in suicide rates across countries and ages. The map vividly displays how older generations commit suicides on much greater scale than younger ones.</small>
+              <a href="https://tinabeee.github.io/Global_Suicide_Map/" target="_blank">Explore the Map</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="website_content/images/per_capita_w_avg.png" alt="image 2"></div>
+            <figcaption>
+              <h1>Suicides by Generation</h1>
+              <small>The Silent Generation (those born between 1928 and 1945) has seen suicides significantly above the generational average on a per-capita basis.</small>
+              <a href="#" target="_blank">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="section-title">
+            <h1>Suicides & Age</h1>
+            <p>Exploring the relationship between suicide rates and age.</p>
+          </div>
+        </div>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="website_content/images/suicides_by_age.png" alt="image 3" style="width:100%"></div>
+            <figcaption>
+              <h1>Suicides by Age</h1>
+              <small>Across the world, older people commit suicides at much higher rates than young people. The suicide rate on a per-100,000 population basis among those 75 and older is more than twice as high as among those between the ages of 15 and 24. Several researchers have attributed late-life suicides to poor mental and physical health and loneliness.</small>
+              <a href="https://public.tableau.com/views/SocialmediausageSuiciderate/Age-wisesuiciderange?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="website_content/images/trends_by_age.png" alt="image 4" style="width:100%"></div>
+            <figcaption>
+              <h1>Suicide Trends by Age</h1>
+              <small>While suicides among those 75 and older still make up the highest rate of suicides, suicides in that age group have decreased significantly since their peak in 1995. Suicides across other age groups have similarly decreased in the same time frame, albeit not as drastically.</small>
+              <a href="#">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+
+        <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="section-title">
+            <h1>Suicides & Gender</h1>
+            <p>Exploring the relationship between suicides and gender.</p>
+          </div>
+        </div>
+
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="website_content/images/male_vs_female.png" alt="image 6" style="width:100%"></div>
+            <figcaption>
+              <h1>Suicides by Gender</h1>
+              <small>Males die by suicide at significantly higher rates than females, a trend that has been consistent over the decades and that researchers attribute to males being less inclined to seek help and more strongly connected to economic downturns than female suicides. But male suicides on a per-100k population basis have steadily declined since their peak in 1995.</small>
+              <a href="https://public.tableau.com/shared/WC7K8PK3H?:display_count=n&:origin=viz_share_link" target="_blank">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="website_content/images/generation_gender.png" alt="image 6" style="width:100%"></div>
+            <figcaption>
+              <h1>Suicides by Gender</h1>
+              <small>Males die by suicide at significantly higher rates than females, a trend that has been consistent over the decades and that researchers attribute to males being less inclined to seek help and more strongly connected to economic downturns than female suicides. But male suicides on a per-100k population basis have steadily declined since their peak in 1995.</small>
+              <a href="#" target="_blank">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="section-title">
+            <h1>Suicides & Social Media</h1>
+            <p>Exploring the relationship between suicides and social media use.</p>
+          </div>
+        </div>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="website_content/images/social_media_gen.png" alt="image 6" style="width:100%"></div>
+            <figcaption>
+              <h1>U.S. Generation Suicides & Social Media</h1>
+              <small>Generational suicides and social media use in the U.S. appear to have an inverse relationship, according to our data. Per-capita suicides decrease with each new generation while social media use rapidly increases.</small>
+              <a href="https://public.tableau.com/views/SocialmediausageSuiciderate/Suicide100k_generationwise_usage_US?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="website_content/images/social_media_yr.png" alt="image 6" style="width:100%"></div>
+            <figcaption>
+              <h1>U.S. Yearly Suicides & Social Media</h1>
+              <small>Suicides have increased slightly between 2015 - the year when our social media dataset starts - and 2015 - the year when our suicide dataset ends. The rapid increase in average social media usage, however, does not allow to draw a connection between the two metrics.</small>
+              <a href="#" target="_blank">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<section id="findings">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h1>Analysis Findings</h1>
+          <p>We found that global suicide rates have decreased since their peak in 1995, but particularly high suicide rates continue to be driven by countries of the former Soviet Union. Older generations and particularly older people above the age of 75 are at the highest risk for suicide. While the suicide rate of the oldest age group has dropped steadily since 1995, those older than 75 remain significantly more likely to commit suicide. Males continue to be at siginificantly higher risk of committing suicide than females, with the male-to-female suicide ratio being particularly high among Boomers, Gen X and Millennials.<br><br> When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a connection based on the limited data we have (more details in our <a href="https://github.com/NensiH/Social_media_impact#limitations" target=_blank> limitations section</a>). In fact, there appears to be an inverse relationship based on our data, with an increase in U.S. social media running counter to the number of suicides in each generation and age group. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media consume is very low.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+        <img src="website_content/images/social_media_cubes.jpeg" class="img-responsive img-circle" alt="About">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact section -->
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+
+       <div class="col-md-offset-1 col-md-10 col-sm-12">
+
+        <div class="col-lg-offset-1 col-lg-10 section-title wow fadeInUp" data-wow-delay="0.4s">
+          <h1>Help is Available!</h1>
+          <p>If you or someone you know struggles with suicidal thoughts, please contact the <a href="https://suicidepreventionlifeline.org/" target="_blank">National Suicide Prevention Lifeline</a> at 800-273-8255.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Back top -->
+<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- Javascript  -->
+<script src="website_content/js/jquery.js"></script>
+<script src="website_content/js/bootstrap.min.js"></script>
+<script src="website_content/js/vegas.min.js"></script>
+<script src="website_content/js/modernizr.custom.js"></script>
+<script src="website_content/js/toucheffects.js"></script>
+<script src="website_content/js/owl.carousel.min.js"></script>
+<script src="website_content/js/smoothscroll.js"></script>
+<script src="website_content/js/wow.min.js"></script>
+<script src="website_content/js/custom.js"></script>
+
+</body>
+</html>
