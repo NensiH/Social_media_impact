@@ -1,5 +1,7 @@
 # Suicide Rates and Social Media Impact
 
+Check out our [website for this project](https://nensih.github.io/Social_media_impact/), which summarizes our key findings
+
 ![gettyimages-459883190-dcb1497c2baca73b4be735ecd2e139152cd1ef32-s1100-c50](https://user-images.githubusercontent.com/92277581/157372626-6bcbadbe-17f1-42c0-b21b-66f77e1b168e.jpeg)
 
 ## Team
@@ -189,7 +191,7 @@ In our machine learning analysis, we connected to social_media_impact database u
 
 - We used Tableau as a part of our dashboard. Our Tableau analysis can be found here [Tableau Dashboard](https://public.tableau.com/app/profile/nensi7308/viz/SocialmediausageSuiciderate/Dashboard1).
 
-- We use Mapbox and Leaflet to create an interactive global map of the suicide data. All the files used to create the map can be found in this repo's [Map_Viz](https://github.com/NensiH/Social_media_impact/tree/main/Map_Viz) folder:
+- We use Mapbox and Leaflet to create an [interactive global map](https://tinabeee.github.io/Global_Suicide_Map/) of the suicide data. All the files used to create the map can be found in this repo's [Map_Viz](https://github.com/NensiH/Social_media_impact/tree/main/Map_Viz) folder:
 
     <img width="1000" alt="Screen Shot 2022-03-27 at 13 35 28" src="https://user-images.githubusercontent.com/90064437/160295629-2ca18ac9-fa8b-46d8-92e5-42682102360e.png">
 
@@ -219,32 +221,41 @@ An analysis of our global suicide dataset shows that older people and older gene
 
 <img width="936" alt="Screen Shot 2022-04-01 at 2 00 13 PM" src="https://user-images.githubusercontent.com/92277581/161325481-2557e9da-cf4b-475f-9e19-1992126aa852.png">
 
+<br>
+The same trend is apparent when looking at global suicides on a generational basis. Per-capita suicides among the older generations are significantly above the overall suicide average for all generations.
 
+<img width="530" alt="per_capita_w_avg" src="https://user-images.githubusercontent.com/90064437/161363508-70d66117-9fa2-4c93-a6a5-76f7c080ede6.png">
+
+<br> <br>
+When looking at global suicide trends over the years by age, those above the age of 75 are seen to have consistently higher suicide rates across the decades. However, suicides rates, have decreased across the board from their peak in 1995, with a particularly strong drop among those 75 and older.
+
+<img width="620" alt="trends_by_age" src="https://user-images.githubusercontent.com/90064437/161363575-a30ee55f-df2b-4e45-a002-63af731f7691.png">
+
+<br><br>
 Furthermore, global suicides among men are significantly higher than among women, a trend that has been consistent over the decades.
 
 <img width="977" alt="Screen Shot 2022-04-01 at 2 04 03 PM" src="https://user-images.githubusercontent.com/92277581/161325878-15db136f-4bd4-4f75-b99b-341471129311.png">
 
+<br><br>
+Interestingly enough, the share of male versus female suicides differs starkly between the generations. While among Boomers, Gen X and Millennials, nearly four male suicides occur for every female suicide, the ratio is much smaller among the Great and Silent Generation, the two oldest generations.
 
+<img width="460" alt="generation_gender" src="https://user-images.githubusercontent.com/90064437/161363644-6ea485e0-568b-438d-8d79-1d0f85db2346.png">
 
+<br><br>
 Geographically, we found that suicides in countries of the former Soviet Union are significantly higher than anywhere else in the world of those countries included in our dataset. Several research articles attribute the collapse of the Soviet Union and the drastic socio-eeconomic changes for the increased suicide rate.
 
-<img width="1006" alt="Screen Shot 2022-04-01 at 2 02 38 PM" src="https://user-images.githubusercontent.com/92277581/161325720-8bd76210-ac20-410b-87c6-01a8c5111d7b.png">
+***NEW TABLEAU MAP GRAPHIC HERE AS SUGGESTED BY QUANG***
+
+<br><br>
+When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a relationship based on the limited data we have (more details in our limitations section). In fact, the our analysis and graphics suggest there is an inverse relationship: as social media use goes up among the younger generations, suicide rates go down. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media consumption is very low.
+
+<img width="658" alt="social_media_gen" src="https://user-images.githubusercontent.com/90064437/161364409-7fbd0c53-1fc8-4abb-a605-811ab4c8023f.png">
 
 
+When overlaying total average U.S. social media usage with total U.S. per-capita suicide rates on a yearly basis, we also cannot find a correlation between the two factors. 
 
+<img width="731" alt="social_media_yr" src="https://user-images.githubusercontent.com/90064437/161364486-b09f1060-2a98-4c99-905e-99c1202fbecd.png">
 
-
-When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a connection based on the limited data we have (more details in our limitations section). While we were able to graphically show an increase in U.S. social media use and suicides among younger U.S. generations, the data is not conclusive on whether there is a connection between the two. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media use is very low.
-
-![image](https://user-images.githubusercontent.com/92283185/160902849-63e1853d-11dd-4021-8a13-f8a6e486b7fc.png)
-
-Furthermore, suicide rates per 100k population have been steadily increasing since 1984, but have decreased since 2004, whereas social media usage has rapidly increased since 2004, suggested a reverse correlation. 
-
-![image](https://user-images.githubusercontent.com/92283185/161177792-8e2a5f62-c707-4d38-aaf6-23aa7cfe61c3.png)
-
-When overlaying U.S. social media usage with U.S. per-capita suicide rates we cannot find a correlation between the two factors. Suicide rates appear to rather be impacted by larger economic changes, such as the 2008 financial crisis, but based on our limited data we are not able to draw those conclusions.
-
-![image](https://user-images.githubusercontent.com/92283185/160967368-fc2f918b-78e2-4c68-94b4-cf30d297d42a.png)
 
 
 ## Hypothesis testing
@@ -252,7 +263,7 @@ At the outset of our project, our null hypothesis was that there is no relations
 
 Our analysis has shown that we cannot identify a correlation between the two datapoints as suicide is a complex socio-economic phenomenon with varied causes and influences. Social media use alone does not impact suicide rates, according to the datasets we analyzed. We therefore fail to reject our null hypothesis and find that there is no relationship between social media use and suicides.
 
-## Limitations alternative
+## Limitations
 We have encountered several restrictions while working on this project. First and foremost, we were limited by available data resources. 
 Suicides are the most extreme and serious form of mental health disorders and for every suicide there are many people who attempt suicide, according to the World Health Organization. Those numerous suicide attempts are not included in our dataset.
 
