@@ -1,5 +1,7 @@
 # Suicide Rates and Social Media Impact
 
+Check out our [website for this project](https://nensih.github.io/Social_media_impact/), which summarizes our key findings
+
 ![gettyimages-459883190-dcb1497c2baca73b4be735ecd2e139152cd1ef32-s1100-c50](https://user-images.githubusercontent.com/92277581/157372626-6bcbadbe-17f1-42c0-b21b-66f77e1b168e.jpeg)
 
 ## Team
@@ -224,25 +226,27 @@ The same trend is apparent when looking at global suicides on a generational bas
 
 <img width="530" alt="per_capita_w_avg" src="https://user-images.githubusercontent.com/90064437/161363508-70d66117-9fa2-4c93-a6a5-76f7c080ede6.png">
 
-
+<br> <br>
 When looking at global suicide trends over the years by age, those above the age of 75 are seen to have consistently higher suicide rates across the decades. However, suicides rates, have decreased across the board from their peak in 1995, with a particularly strong drop among those 75 and older.
 
 <img width="620" alt="trends_by_age" src="https://user-images.githubusercontent.com/90064437/161363575-a30ee55f-df2b-4e45-a002-63af731f7691.png">
 
-
+<br><br>
 Furthermore, global suicides among men are significantly higher than among women, a trend that has been consistent over the decades.
 
 <img width="977" alt="Screen Shot 2022-04-01 at 2 04 03 PM" src="https://user-images.githubusercontent.com/92277581/161325878-15db136f-4bd4-4f75-b99b-341471129311.png">
 
+<br><br>
 Interestingly enough, the share of male versus female suicides differs starkly between the generations. While among Boomers, Gen X and Millennials, nearly four male suicides occur for every female suicide, the ratio is much smaller among the Great and Silent Generation, the two oldest generations.
 
 <img width="460" alt="generation_gender" src="https://user-images.githubusercontent.com/90064437/161363644-6ea485e0-568b-438d-8d79-1d0f85db2346.png">
 
+<br><br>
 Geographically, we found that suicides in countries of the former Soviet Union are significantly higher than anywhere else in the world of those countries included in our dataset. Several research articles attribute the collapse of the Soviet Union and the drastic socio-eeconomic changes for the increased suicide rate.
 
 ***NEW TABLEAU MAP GRAPHIC HERE AS SUGGESTED BY QUANG***
 
-
+<br><br>
 When it comes to U.S. social media use and its relationship to U.S. suicides, we have not been able to establish a relationship based on the limited data we have (more details in our limitations section). In fact, the our analysis and graphics suggest there is an inverse relationship: as social media use goes up among the younger generations, suicide rates go down. Furthermore, social media use does not explain the high suicide rates among the Silent Generation (those born between 1928 and 1945) whose social media consumption is very low.
 
 <img width="658" alt="social_media_gen" src="https://user-images.githubusercontent.com/90064437/161364409-7fbd0c53-1fc8-4abb-a605-811ab4c8023f.png">
