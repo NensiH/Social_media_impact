@@ -41,27 +41,9 @@ We want to analyze how suicide rates changed over the decades and across differe
 We also want to determine whether an uptick in social media use in recent years overlaps with an increase in suicide rates, particularly among younger cohorts who use social media in the greatest numbers. To determine correlation, we plan to visualize U.S. suicide rates and social media use over time.
 
 ## Tools
-- Source Control
-  - Github
-- Creating Database
-  - PostgreSQL
-  - SQLAlchemy
-- Data cleaning and Analyzing
-  - Python
-  - Jupyter notebook
-  - Pandas
-- Machine Learning
-  - scikit-learn
-  - Linear Regression model
-  - Random forest regressor model
-- Dashboard
-  - Tableau
-  - MatplotLib
-  - Leaflet
-  - Mapbox
-  - Javascript
-  - HTML
-  - CSS
+
+<img width="999" alt="Screen Shot 2022-04-04 at 4 44 38 PM" src="https://user-images.githubusercontent.com/37478490/161872108-bc8cb6c1-8a20-48ad-bbe7-382b3c6e0790.png">
+
 
 ## Machine Learning
 
