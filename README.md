@@ -1,8 +1,12 @@
 # Suicide Rates and Social Media Impact
 
-Check out our [website for this project](https://nensih.github.io/Social_media_impact/), which summarizes our key findings
+## Presentation:
 
-And here is the link for our Final Presentation on [Suicide Rates And Social Media Impact](https://github.com/NensiH/Social_media_impact/blob/main/Presentation/Social_Media_Impact_final_ppt.pptx)
+- Summarization of Key Findings
+	- [website for this project](https://nensih.github.io/Social_media_impact/)
+
+- Final Presentation
+	- [Suicide Rates And Social Media Impact](https://github.com/NensiH/Social_media_impact/blob/main/Presentation/Social_Media_Impact_final_ppt.pptx)
  
 ![gettyimages-459883190-dcb1497c2baca73b4be735ecd2e139152cd1ef32-s1100-c50](https://user-images.githubusercontent.com/92277581/157372626-6bcbadbe-17f1-42c0-b21b-66f77e1b168e.jpeg)
 
@@ -29,6 +33,8 @@ Social media's growing influence has completely altered the way young generation
 Researcher continue to study a potential causal link between social media use and declines in mental health. But internal Facebook documents published by several news outlets show that the social media giant is aware of the impact its product have on particularly young, female users.
 
 Suicide is a serious societal problem and the result of complex socioeconomic and cultural factors. Even if our analysis should show that social media use only has a minimal impact, we believe any measure to decrease risk and increase suicide prevention is worth pursuing.
+
+## About Data
 
 ### Description of our source of data
 We are using a suicide data set from Kaggle, which lists suicides from around the world by country from 1985 until 2015. The data is split by gender, age and generation, and also lists the respective country's Human Development Index and GDP in a particular year.
