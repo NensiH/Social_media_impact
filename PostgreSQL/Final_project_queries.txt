@@ -23,11 +23,3 @@ over_65_per double precision);
 
 ------------------------------------------------------------------------------------------------------------------
 
-changing format from date to yearwise groupby
-
-select to_char(usagedate,'yyyy')as usageyear, sum(age_18_20_per)+ sum(age_30_49_per)as generation_x_z_millenials,
-sum(age_50_64_per) as silent_boomers, sum(over_65_per) as g_i_generation 
-into socialmedia_usage_generationwise
-from socialmedia_usage_agewise
-group by to_char(usagedate,'yyyy')
-order by to_char(usagedate,'yyyy');
