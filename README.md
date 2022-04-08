@@ -92,9 +92,9 @@ After training both models, we decided to go with the random forest regressor du
 
 The random forest regressor model also showed improvement in the residual plot. A residual plot shows the difference between the true value of y and the predicted values of y, ideally we want our predictions to be close to zero on the y-axis. We can see in the linear regression residual plot, the difference is between the ranges of negative 15 to 10. In the random forest regressor residual plot, the ranges improve by decreasing to a range of negative 2 to 1.5.
 
-![Fig2](https://user-images.githubusercontent.com/92401000/160256730-36e62161-c040-49ec-ab53-e6db33e61e3c.png)
+![Fig2](https://user-images.githubusercontent.com/92401000/162344250-af9e72d9-e540-4ec4-a823-66f3985a346d.png)
 
-![Fig3](https://user-images.githubusercontent.com/92401000/160256734-25354167-b410-463b-a7b6-af85cef0a87d.png)
+![Fig3](https://user-images.githubusercontent.com/92401000/162344266-138e4b7f-254f-48b9-b587-06ef7b6c852f.png)
 
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 No changes were made. 
@@ -109,7 +109,7 @@ The R-squared score for the training dataset is 0.99939 and for the testing data
 
 ### Description of feature importance
 
-![Fig4](https://user-images.githubusercontent.com/92401000/160256750-5c66814b-a312-4558-bd01-2deb00e351f1.png)
+![Fig4](https://user-images.githubusercontent.com/92401000/162344281-e403ff21-397b-46f9-8df6-16f55ede8b1b.png)
 
 The top 3 most important features impacting the random forest regressor model are:
 -	sex_m
